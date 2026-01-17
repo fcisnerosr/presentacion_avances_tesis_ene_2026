@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.7.18)  17 JAN 2026 13:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.7.18)  17 JAN 2026 13:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1068,72 +1068,71 @@ Overfull \vbox (24.00334pt too high) detected at line 109
  <./figs//004_seccion_transversal_de_elemento_tubular_parametros_abolladura_con
 _elementos_discretizados.png> <./figs//004_modelo_elemento_tubula_seccion_longi
 tudinal_parametros_abolladura.png>]
-<./figs//002_elemento_tubular_con_corrosion_excesiva.png, id=233, 134.75343pt x
- 90.3375pt>
-File: ./figs//002_elemento_tubular_con_corrosion_excesiva.png Graphic file (typ
-e png)
-<use ./figs//002_elemento_tubular_con_corrosion_excesiva.png>
-Package pdftex.def Info: ./figs//002_elemento_tubular_con_corrosion_excesiva.pn
-g  used on input line 127.
-(pdftex.def)             Requested size: 154.03378pt x 103.26286pt.
-<./figs//004_caracterizacion_de_como_se_reduce_el_espesor_elemento_tubular_por_
-corrosion.png, id=234, 304.88907pt x 192.72pt>
-File: ./figs//004_caracterizacion_de_como_se_reduce_el_espesor_elemento_tubular
-_por_corrosion.png Graphic file (type png)
-<use ./figs//004_caracterizacion_de_como_se_reduce_el_espesor_elemento_tubular_
-por_corrosion.png>
-Package pdftex.def Info: ./figs//004_caracterizacion_de_como_se_reduce_el_espes
-or_elemento_tubular_por_corrosion.png  used on input line 127.
-(pdftex.def)             Requested size: 154.03522pt x 97.36546pt.
+<./figs//004_modelo_elemento_tubular_con_caracterizacion_corrosion_longitudinal
+_donde_muestran_tramos_con_reduccion_espesor.png, id=233, 486.31688pt x 197.989
+69pt>
+File: ./figs//004_modelo_elemento_tubular_con_caracterizacion_corrosion_longitu
+dinal_donde_muestran_tramos_con_reduccion_espesor.png Graphic file (type png)
+<use ./figs//004_modelo_elemento_tubular_con_caracterizacion_corrosion_longitud
+inal_donde_muestran_tramos_con_reduccion_espesor.png>
+Package pdftex.def Info: ./figs//004_modelo_elemento_tubular_con_caracterizacio
+n_corrosion_longitudinal_donde_muestran_tramos_con_reduccion_espesor.png  used 
+on input line 119.
+(pdftex.def)             Requested size: 342.2969pt x 139.35616pt.
  [8
 
- <./figs//002_elemento_tubular_con_corrosion_excesiva.png> <./figs//004_caracte
-rizacion_de_como_se_reduce_el_espesor_elemento_tubular_por_corrosion.png>]
+ <./figs//004_modelo_elemento_tubular_con_caracterizacion_corrosion_longitudina
+l_donde_muestran_tramos_con_reduccion_espesor.png>]
 <./figs//001_modelo_plataforma_con_elemento_tubular_masa_adherida_y_masa_atrapa
-da.png, id=264, 429.85594pt x 208.52907pt>
+da.png, id=262, 429.85594pt x 208.52907pt>
 File: ./figs//001_modelo_plataforma_con_elemento_tubular_masa_adherida_y_masa_a
 trapada.png Graphic file (type png)
 <use ./figs//001_modelo_plataforma_con_elemento_tubular_masa_adherida_y_masa_at
 rapada.png>
 Package pdftex.def Info: ./figs//001_modelo_plataforma_con_elemento_tubular_mas
-a_adherida_y_masa_atrapada.png  used on input line 145.
-(pdftex.def)             Requested size: 136.91862pt x 66.42201pt.
+a_adherida_y_masa_atrapada.png  used on input line 129.
+(pdftex.def)             Requested size: 290.96011pt x 141.14877pt.
+ [9
+
+ <./figs//001_modelo_plataforma_con_elemento_tubular_masa_adherida_y_masa_atrap
+ada.png>]
 <./figs//001_modelo_plataforma_con_elemento_tubular_masa_de_crecimiento_marino.
-png, id=265, 490.83376pt x 249.93375pt>
+png, id=290, 490.83376pt x 249.93375pt>
 File: ./figs//001_modelo_plataforma_con_elemento_tubular_masa_de_crecimiento_ma
 rino.png Graphic file (type png)
 <use ./figs//001_modelo_plataforma_con_elemento_tubular_masa_de_crecimiento_mar
 ino.png>
 Package pdftex.def Info: ./figs//001_modelo_plataforma_con_elemento_tubular_mas
-a_de_crecimiento_marino.png  used on input line 145.
-(pdftex.def)             Requested size: 136.91862pt x 69.71782pt.
- [9
+a_de_crecimiento_marino.png  used on input line 136.
+(pdftex.def)             Requested size: 290.95998pt x 148.15753pt.
+ [10
 
- <./figs//001_modelo_plataforma_con_elemento_tubular_masa_adherida_y_masa_atrap
-ada.png> <./figs//001_modelo_plataforma_con_elemento_tubular_masa_de_crecimient
-o_marino.png>] [10
+ <./figs//001_modelo_plataforma_con_elemento_tubular_masa_de_crecimiento_marino
+.png>] [11
+
+] [12
 
 ]
 <./figs/resultados/abolladura//005_abolladura_comparativa_global_de_ICD_vs_dañ
-o_por_zona_mudline_medio_y_splash_zone.png, id=350, 1003.8303pt x 570.933pt>
+o_por_zona_mudline_medio_y_splash_zone.png, id=420, 1003.8303pt x 570.933pt>
 File: ./figs/resultados/abolladura//005_abolladura_comparativa_global_de_ICD_vs
 _daño_por_zona_mudline_medio_y_splash_zone.png Graphic file (type png)
 <use ./figs/resultados/abolladura//005_abolladura_comparativa_global_de_ICD_vs_
 daño_por_zona_mudline_medio_y_splash_zone.png>
 Package pdftex.def Info: ./figs/resultados/abolladura//005_abolladura_comparati
 va_global_de_ICD_vs_daño_por_zona_mudline_medio_y_splash_zone.png  used on inp
-ut line 168.
+ut line 203.
 (pdftex.def)             Requested size: 342.29341pt x 194.68091pt.
 
-Overfull \vbox (10.90079pt too high) detected at line 168
+Overfull \vbox (10.90079pt too high) detected at line 203
  []
 
-[11
+[13
 
  <./figs/resultados/abolladura//005_abolladura_comparativa_global_de_ICD_vs_da�
 �o_por_zona_mudline_medio_y_splash_zone.png>]
 <./figs/resultados/abolladura//006_abolladura_ICD_por_zona_desglozadp_por_tipo_
-de_elemento_desde_mudline_medio_y_splash_zone.png, id=379, 1293.633pt x 865.794
+de_elemento_desde_mudline_medio_y_splash_zone.png, id=449, 1293.633pt x 865.794
 6pt>
 File: ./figs/resultados/abolladura//006_abolladura_ICD_por_zona_desglozadp_por_
 tipo_de_elemento_desde_mudline_medio_y_splash_zone.png Graphic file (type png)
@@ -1141,32 +1140,32 @@ tipo_de_elemento_desde_mudline_medio_y_splash_zone.png Graphic file (type png)
 ipo_de_elemento_desde_mudline_medio_y_splash_zone.png>
 Package pdftex.def Info: ./figs/resultados/abolladura//006_abolladura_ICD_por_z
 ona_desglozadp_por_tipo_de_elemento_desde_mudline_medio_y_splash_zone.png  used
- on input line 176.
+ on input line 211.
 (pdftex.def)             Requested size: 291.88391pt x 195.35023pt.
- [12
+ [14
 
  <./figs/resultados/abolladura//006_abolladura_ICD_por_zona_desglozadp_por_tipo
 _de_elemento_desde_mudline_medio_y_splash_zone.png>]
 <./figs/resultados/corrosion//005_corrosion_comparativa_global_de_ICD_vs_daño_
-por_zona_mudline_medio_y_splash_zone.png, id=407, 1004.553pt x 570.933pt>
+por_zona_mudline_medio_y_splash_zone.png, id=477, 1004.553pt x 570.933pt>
 File: ./figs/resultados/corrosion//005_corrosion_comparativa_global_de_ICD_vs_d
 año_por_zona_mudline_medio_y_splash_zone.png Graphic file (type png)
 <use ./figs/resultados/corrosion//005_corrosion_comparativa_global_de_ICD_vs_da
 ño_por_zona_mudline_medio_y_splash_zone.png>
 Package pdftex.def Info: ./figs/resultados/corrosion//005_corrosion_comparativa
 _global_de_ICD_vs_daño_por_zona_mudline_medio_y_splash_zone.png  used on input
- line 184.
+ line 219.
 (pdftex.def)             Requested size: 342.29459pt x 194.54152pt.
 
-Overfull \vbox (10.7614pt too high) detected at line 184
+Overfull \vbox (10.7614pt too high) detected at line 219
  []
 
-[13
+[15
 
  <./figs/resultados/corrosion//005_corrosion_comparativa_global_de_ICD_vs_daño
 _por_zona_mudline_medio_y_splash_zone.png>]
 <./figs/resultados/corrosion//006_corrosion_ICD_por_zona_desglozadp_por_tipo_de
-_elemento_desde_mudline_medio_y_splash_zone.png, id=436, 1293.633pt x 865.7946p
+_elemento_desde_mudline_medio_y_splash_zone.png, id=506, 1293.633pt x 865.7946p
 t>
 File: ./figs/resultados/corrosion//006_corrosion_ICD_por_zona_desglozadp_por_ti
 po_de_elemento_desde_mudline_medio_y_splash_zone.png Graphic file (type png)
@@ -1174,14 +1173,14 @@ po_de_elemento_desde_mudline_medio_y_splash_zone.png Graphic file (type png)
 o_de_elemento_desde_mudline_medio_y_splash_zone.png>
 Package pdftex.def Info: ./figs/resultados/corrosion//006_corrosion_ICD_por_zon
 a_desglozadp_por_tipo_de_elemento_desde_mudline_medio_y_splash_zone.png  used o
-n input line 192.
+n input line 227.
 (pdftex.def)             Requested size: 291.88391pt x 195.35023pt.
- [14
+ [16
 
  <./figs/resultados/corrosion//006_corrosion_ICD_por_zona_desglozadp_por_tipo_d
-e_elemento_desde_mudline_medio_y_splash_zone.png>] [15
+e_elemento_desde_mudline_medio_y_splash_zone.png>] [17
 
-] [16
+] [18
 
 ]
 \tf@nav=\write6
@@ -1201,24 +1200,31 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 24773 strings out of 478287
- 492290 string characters out of 5849289
- 740755 words of memory out of 5000000
- 42429 multiletter control sequences out of 15000+600000
- 477911 words of font info for 58 fonts, out of 8000000 for 9000
+ 24821 strings out of 478287
+ 493273 string characters out of 5849289
+ 744755 words of memory out of 5000000
+ 42468 multiletter control sequences out of 15000+600000
+ 481780 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,16n,122p,384b,679s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
-fss1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1095.pfb>
-Output written on main.pdf (16 pages, 1660909 bytes).
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi
+10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/
+texmf/fonts/type1/public/cm-super/sfss1095.pfb></usr/share/texmf/fonts/type1/pu
+blic/cm-super/sfsx1095.pfb>
+Output written on main.pdf (18 pages, 1628096 bytes).
 PDF statistics:
- 556 PDF objects out of 1000 (max. 8388607)
- 464 compressed objects within 5 object streams
- 33 named destinations out of 1000 (max. 500000)
- 256 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 657 PDF objects out of 1000 (max. 8388607)
+ 544 compressed objects within 6 object streams
+ 37 named destinations out of 1000 (max. 500000)
+ 287 words of extra memory for PDF output out of 10000 (max. 10000000)
 

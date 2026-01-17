@@ -113,35 +113,26 @@
     \textbf{Enfoque:} Corrosión Uniforme por zonas (Splash Zone vs. Sumergida).
     \vspace{0.3cm}
     
-    \begin{columns}
-        \column{0.5\textwidth}
-        \centering
-        \includegraphics[width=0.9\textwidth, height=0.5\textheight, keepaspectratio]{002_elemento_tubular_con_corrosion_excesiva.png}
-        \small{Ejemplo de corrosión severa.}
-        
-        \column{0.5\textwidth}
-        \centering
-        \includegraphics[width=0.9\textwidth, height=0.5\textheight, keepaspectratio]{004_caracterizacion_de_como_se_reduce_el_espesor_elemento_tubular_por_corrosion.png}
-        \small{Reducción efectiva del espesor.}
-    \end{columns}
+    \centering
+    \includegraphics[width=\textwidth, height=0.55\textheight, keepaspectratio]{004_modelo_elemento_tubular_con_caracterizacion_corrosion_longitudinal_donde_muestran_tramos_con_reduccion_espesor.png}
+    \captionof{figure}{Caracterización de la reducción de espesor por corrosión longitudinal.}
 \end{frame}
 
-% Slide 8: Modificación de la Matriz de Masas
-\begin{frame}{Efectos Inerciales y Ambientales}
+% Slide 8: Efectos Inerciales y Ambientales (1/2)
+\begin{frame}{Efectos Inerciales y Ambientales (1/2)}
     \textbf{Consideraciones:} Inclusión de masa añadida hidrodinámica y crecimiento marino (biofouling).
     \vspace{0.3cm}
     
-    \begin{columns}
-        \column{0.5\textwidth}
-        \centering
-        \includegraphics[width=0.8\textwidth]{001_modelo_plataforma_con_elemento_tubular_masa_adherida_y_masa_atrapada.png}
-        \small{Masa Adherida/Atrapada}
-        
-        \column{0.5\textwidth}
-        \centering
-        \includegraphics[width=0.8\textwidth]{001_modelo_plataforma_con_elemento_tubular_masa_de_crecimiento_marino.png}
-        \small{Crecimiento Marino}
-    \end{columns}
+    \centering
+    \includegraphics[width=0.85\textwidth, height=0.7\textheight, keepaspectratio]{001_modelo_plataforma_con_elemento_tubular_masa_adherida_y_masa_atrapada.png}
+    \captionof{figure}{Detalle de Masa Hidrodinámica (Adherida y Atrapada).}
+\end{frame}
+
+% Slide 9: Efectos Inerciales y Ambientales (2/2)
+\begin{frame}{Efectos Inerciales y Ambientales (2/2)}
+    \centering
+    \includegraphics[width=0.85\textwidth, height=0.7\textheight, keepaspectratio]{001_modelo_plataforma_con_elemento_tubular_masa_de_crecimiento_marino.png}
+    \captionof{figure}{Modelado del Crecimiento Marino (Biofouling) y coeficientes rugosos.}
 \end{frame}
 
 % Slide 9: Aportación Novedosa (ICD)
@@ -150,13 +141,57 @@
         Métrica híbrida optimizada evolutivamente que pondera:
         \begin{itemize}
             \item Sensibilidad de modos de vibración de orden superior.
-            \item Estabilidad numérica de la matriz de flexibilidad.
+            \item Robustez ante la incertidumbre y ruido experimental.
         \end{itemize}
     \end{block}
     \vspace{0.5cm}
     \begin{alertblock}{Optimización}
         El Algoritmo Genético no solo busca el daño, sino que optimiza los pesos de ponderación del ICD para maximizar la detectabilidad en escenarios de ruido.
     \end{alertblock}
+\end{frame}
+
+% Slide 9.5: Formulación Matemática del ICD
+\begin{frame}{Formulación Matemática del ICD}
+    \begin{block}{Ecuación General}
+        El ICD se define como el producto de tres factores normalizados:
+        \begin{equation}
+            \text{ICD} = D \times C_{\text{norm}}(\delta) \times P_{\text{FP}}(N_{\text{FP}})
+        \end{equation}
+    \end{block}
+
+    \vspace{0.2cm}
+
+    \begin{columns}[t]
+        % Columna 1: Factor D
+        \begin{column}{0.32\textwidth}
+            \textbf{1. Éxito de Localización ($D$)}
+            \begin{itemize} \footnotesize
+                \item \textbf{1.0:} Detección exacta.
+                \item \textbf{0.5:} Nodo adyacente (valor parcial).
+                \item \textbf{0.0:} Fallo o ubicación errónea.
+            \end{itemize}
+        \end{column}
+
+        % Columna 2: Factor C_norm
+        \begin{column}{0.32\textwidth}
+            \textbf{2. Confianza ($C_{\text{norm}}$)}
+            \begin{itemize} \footnotesize
+                \item Escalamiento logarítmico.
+                \item Reconoce la dificultad de detectar daños incipientes ($\alpha=0.1$).
+            \end{itemize}
+             $$\frac{\ln(1 + \alpha \delta)}{\ln(1 + \alpha \delta_{\max})}$$
+        \end{column}
+
+        % Columna 3: Factor P_FP
+        \begin{column}{0.32\textwidth}
+            \textbf{3. Penalización ($P_{\text{FP}}$)}
+            \begin{itemize} \footnotesize
+                \item Decaimiento exponencial.
+                \item Castiga severamente la pérdida de confiabilidad ($\beta=0.15$).
+            \end{itemize}
+            $$e^{-\beta N_{\text{FP}}}$$
+        \end{column}
+    \end{columns}
 \end{frame}
 
 % Slide 10: Resultados - Abolladura (1/2)
