@@ -1,0 +1,229 @@
+\documentclass{beamer}
+
+\usetheme{Madrid}
+\usecolortheme{whale}
+
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{booktabs}
+\usepackage{amsmath}
+
+% Path configuration
+\graphicspath{{./figs/}{./figs/resultados/abolladura/}{./figs/resultados/corrosion/}}
+
+% Metadata
+\title[Detección de Daño en Plataformas]{Desarrollo de una metodología para la detección de daño en plataformas marinas fijas por medio de análisis de vibraciones}
+\author[M. I. Francisco Cisneros]{M. I. Francisco Cisneros \\ \small{Doctorante del 7mo Semestre}}
+\institute[]{Posgrado en Ingeniería - UNAM}
+\date{Viernes 23 de enero de 2026}
+
+\begin{document}
+
+% Slide 1
+\begin{frame}
+    \titlepage
+\end{frame}
+
+% Slide 2: Introducción y Alcance
+\begin{frame}{Introducción y Alcance}
+    \begin{itemize}
+        \item \textbf{Contexto:} Avances finales previos a la defensa de tesis (Evaluación de 7º Semestre).
+        \vspace{0.5cm}
+        \item \textbf{Problemática:}
+        \begin{itemize}
+            \item Crisis de mantenimiento en infraestructura envejecida.
+            \item "Data Scarcity": Escasez de datos reales de daño que inviabiliza el uso puro de algoritmos de Deep Learning.
+        \end{itemize}
+        \vspace{0.5cm}
+        \item \textbf{Solución Propuesta:}
+        \begin{itemize}
+            \item Sistema SHM robusto ante la falta de sensores.
+            \item Hibridación de Algoritmos Genéticos (AG) con Modelos de Elemento Finito (FEM).
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+
+% Slide 3: Metodología Propuesta (1/2)
+\begin{frame}{Metodología Propuesta (1/2)}
+    \begin{columns}
+        \column{0.5\textwidth}
+        \centering
+        \includegraphics[width=\textwidth, height=0.7\textheight, keepaspectratio]{005_metogologia_propuesta_para_identificar_daños_en_plataformas_reales.jpg}
+        \vspace{0.2cm}
+        \small{Flujo de identificación en plataformas reales.}
+        
+        \column{0.5\textwidth}
+        \centering
+        \includegraphics[width=\textwidth, height=0.7\textheight, keepaspectratio]{006_metodología_del_AG_para_localizar_daños_a_nivel_computacional.jpg}
+        \vspace{0.2cm}
+        \small{Esquema computacional del AG.}
+    \end{columns}
+\end{frame}
+
+% Slide 4: Metodología Propuesta (2/2)
+\begin{frame}{Metodología Propuesta (2/2): El Algoritmo Genético}
+    \centering
+    \includegraphics[width=0.9\textwidth, height=0.75\textheight, keepaspectratio]{015_diagrama_como_funciona_el_AG_para_la_sumas_funcion_P_y_como_se_relaciona_con_operadores_geneticos_del_AG.jpg}
+    \captionof{figure}{Mecánica del AG: función objetivo y operadores genéticos.}
+\end{frame}
+
+% Slide 5: Caso de Estudio (Modelo Jacket)
+\begin{frame}{Caso de Estudio: Plataforma Tipo Jacket}
+    \begin{itemize}
+        \item Plataforma marina fija discretizada mediante elementos viga.
+    \end{itemize}
+    \vspace{0.3cm}
+    \begin{columns}
+        \column{0.33\textwidth}
+        \centering
+        \includegraphics[width=\textwidth, height=0.55\textheight, keepaspectratio]{007_modelo_vista_fronta_de_plataforma_tipo_jacket_de_caso_de_estudio.png}
+        \tiny{Vista Frontal}
+        
+        \column{0.33\textwidth}
+        \centering
+        \includegraphics[width=\textwidth, height=0.55\textheight, keepaspectratio]{007_modeo_vista_3d_de_plataforma_tipo_jacket_de_caso_de_estudio.png}
+        \tiny{Vista 3D}
+        
+        \column{0.33\textwidth}
+        \centering
+        \includegraphics[width=\textwidth, height=0.55\textheight, keepaspectratio]{007_modeo_vista_3d_de_plataforma_tipo_jacket_de_caso_de_estudio_pero_con_colores_para_saber_que_secciones_transversales_estan_ubicados_con_una_tabla.png}
+        \tiny{Secciones Transversales}
+    \end{columns}
+\end{frame}
+
+% Slide 6: Modelado de Daño - Abolladura
+\begin{frame}{Modelado de Daño: Abolladura}
+    \textbf{Enfoque:} Reducción de rigidez localizada en elementos viga (validado en literatura).
+    \vspace{0.3cm}
+    
+    \begin{figure}
+        \centering
+        \begin{subfigure}[b]{0.32\textwidth}
+            \includegraphics[width=\textwidth]{003_elemento_tubular_con_abolladura_excesiva.png}
+            \caption{\tiny Daño físico}
+        \end{subfigure}
+        \hfill
+        \begin{subfigure}[b]{0.32\textwidth}
+            \includegraphics[width=\textwidth]{004_modelo_elemento_tubula_seccion_longitudinal_parametros_abolladura.png}
+            \caption{\tiny Parametrización}
+        \end{subfigure}
+        \hfill
+        \begin{subfigure}[b]{0.32\textwidth}
+            \includegraphics[width=\textwidth]{004_seccion_transversal_de_elemento_tubular_parametros_abolladura_con_elementos_discretizados.png}
+            \caption{\tiny Sección Transversal}
+        \end{subfigure}
+    \end{figure}
+\end{frame}
+
+% Slide 7: Modelado de Daño - Corrosión
+\begin{frame}{Modelado de Daño: Corrosión}
+    \textbf{Enfoque:} Corrosión Uniforme por zonas (Splash Zone vs. Sumergida) como proxy de degradación de rigidez.
+    \vspace{0.3cm}
+    
+    \begin{columns}
+        \column{0.5\textwidth}
+        \centering
+        \includegraphics[width=0.9\textwidth, height=0.5\textheight, keepaspectratio]{002_elemento_tubular_con_corrosion_excesiva.png}
+        \small{Ejemplo de corrosión severa.}
+        
+        \column{0.5\textwidth}
+        \centering
+        \includegraphics[width=0.9\textwidth, height=0.5\textheight, keepaspectratio]{004_caracterizacion_de_como_se_reduce_el_espesor_elemento_tubular_por_corrosion.png}
+        \small{Reducción efectiva del espesor.}
+    \end{columns}
+\end{frame}
+
+% Slide 8: Modificación de la Matriz de Masas
+\begin{frame}{Efectos Inerciales y Ambientales}
+    \textbf{Consideraciones:} Inclusión de masa añadida hidrodinámica y crecimiento marino (biofouling).
+    \vspace{0.3cm}
+    
+    \begin{columns}
+        \column{0.5\textwidth}
+        \centering
+        \includegraphics[width=0.8\textwidth]{001_modelo_plataforma_con_elemento_tubular_masa_adherida_y_masa_atrapada.png}
+        \small{Masa Adherida/Atrapada}
+        
+        \column{0.5\textwidth}
+        \centering
+        \includegraphics[width=0.8\textwidth]{001_modelo_plataforma_con_elemento_tubular_masa_de_crecimiento_marino.png}
+        \small{Crecimiento Marino}
+    \end{columns}
+\end{frame}
+
+% Slide 9: Aportación Novedosa (ICD)
+\begin{frame}{Aportación Novedosa: Índice de Calidad de Detección (ICD)}
+    \begin{block}{Definición ICD}
+        Métrica híbrida optimizada evolutivamente que pondera:
+        \begin{itemize}
+            \item Sensibilidad de modos de vibración de orden superior.
+            \item Estabilidad numérica de la matriz de flexibilidad.
+        \end{itemize}
+    \end{block}
+    \vspace{0.5cm}
+    \begin{alertblock}{Optimización}
+        El Algoritmo Genético no solo busca el daño, sino que optimiza los pesos de ponderación del ICD para maximizar la detectabilidad en escenarios de ruido.
+    \end{alertblock}
+\end{frame}
+
+% Slide 10: Resultados - Abolladura
+\begin{frame}{Resultados: Detección de Abolladura}
+    \begin{columns}
+        \column{0.5\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{005_abolladura_comparativa_global_de_ICD_vs_daño_por_zona_mudline_medio_y_splash_zone.png}
+        \small{Comparativa Global ICD vs Daño}
+        
+        \column{0.5\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{006_abolladura_ICD_por_zona_desglozadp_por_tipo_de_elemento_desde_mudline_medio_y_splash_zone.png}
+        \small{Desglose por Zona y Tipo de Elemento}
+    \end{columns}
+\end{frame}
+
+% Slide 11: Resultados - Corrosión
+\begin{frame}{Resultados: Detección de Corrosión}
+    \begin{columns}
+        \column{0.5\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{005_corrosion_comparativa_global_de_ICD_vs_daño_por_zona_mudline_medio_y_splash_zone.png}
+        \small{Comparativa Global ICD vs Corrosión}
+        
+        \column{0.5\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{006_corrosion_ICD_por_zona_desglozadp_por_tipo_de_elemento_desde_mudline_medio_y_splash_zone.png}
+        \small{Desglose por Zona}
+    \end{columns}
+\end{frame}
+
+% Slide 12: Estado de la Publicación
+\begin{frame}{Estatus de Publicación JCR}
+    \begin{itemize}
+        \item \textbf{Título Tentativo:} Metodología basada en ICD y Algoritmos Genéticos para detección de daño estructural.
+        \item \textbf{Revista Objetivo:} Ingeniería Investigación y Tecnología.
+        \item \textbf{Estatus:}
+        \begin{itemize}
+            \item Resultados de ICD consolidados.
+            \item Artículo en proceso de redacción y formateo.
+            \item Requisito indispensable para la graduación.
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+
+% Slide 13: Comentarios Finales
+\begin{frame}{Comentarios Finales y Siguientes Pasos}
+    \begin{enumerate}
+        \item \textbf{Validación:} El modelo simplificado de daño (abolladura/corrosión) demuestra ser computacionalmente eficiente y representativo.
+        \item \textbf{Eficacia del ICD:} La métrica híbrida supera a los indicadores tradicionales en escenarios de ruido.
+        \item \textbf{Ruta Crítica (8º Semestre):}
+        \begin{itemize}
+            \item Envío y revisión del artículo JCR.
+            \item Escritura final de la tesis.
+            \item Defensa de grado.
+        \end{itemize}
+    \end{enumerate}
+\end{frame}
+
+\end{document}
