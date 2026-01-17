@@ -1,7 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1768676783 "/home/fcisnerosr/github/presentacion_avances_tesis_ene_2026/main.tex" "main.pdf" "main" 1768676786
+["pdflatex"] 1768678337 "main.tex" "main.pdf" "main" 1768678340
   "/etc/texmf/web2c/texmf.cnf" 1752867229 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/fcisnerosr/github/presentacion_avances_tesis_ene_2026/main.tex" 1768676783 9493 9cf020ec6c01ac26708905a23ff3a03b ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcss1095.tfm" 1136768653 1536 f0fa079cdc83a6ffeda21e42352cf1ea ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcsx1095.tfm" 1136768653 1536 3c856c7696a6d12747a29fbae044a001 ""
@@ -214,7 +213,6 @@
   "figs//001_modelo_plataforma_con_elemento_tubular_masa_adherida_y_masa_atrapada.png" 1768344536 124012 32b803f6c97456369257b212553bc9ec ""
   "figs//001_modelo_plataforma_con_elemento_tubular_masa_de_crecimiento_marino.png" 1768344536 162844 2578177bfa7fac6d1fbfa86e962e04b6 ""
   "figs//002_elemento_tubular_con_corrosion_excesiva.png" 1768344536 59652 9f1608efd1de78d20283321f27399aa0 ""
-  "figs//003_elemento_tubular_con_abolladura_excesiva.png" 1768344536 74740 c46e5060db6d85435e75999ce51a3d7c ""
   "figs//004_caracterizacion_de_como_se_reduce_el_espesor_elemento_tubular_por_corrosion.png" 1768344536 63403 48d478656d5bc8e15faea5e3127a93cb ""
   "figs//004_modelo_elemento_tubula_seccion_longitudinal_parametros_abolladura.png" 1768344536 13430 344c36f12eab65f7cfb93efa50757b53 ""
   "figs//004_seccion_transversal_de_elemento_tubular_parametros_abolladura_con_elementos_discretizados.png" 1768344536 11634 47a329d77b00321e575cefc1f982db7d ""
@@ -222,16 +220,15 @@
   "figs//006_metodología_del_AG_para_localizar_daños_a_nivel_computacional.jpg" 1768344536 121349 ef25331a7f98493aa5eebae51e1f8892 ""
   "figs//007_modelo_vista_fronta_de_plataforma_tipo_jacket_de_caso_de_estudio.png" 1768344536 31894 d356ef5f16beea500a12f062aad1716b ""
   "figs//007_modeo_vista_3d_de_plataforma_tipo_jacket_de_caso_de_estudio.png" 1768344536 77294 4a616a60d5d2920afdd589ad4a283bc2 ""
-  "figs//007_modeo_vista_3d_de_plataforma_tipo_jacket_de_caso_de_estudio_pero_con_colores_para_saber_que_secciones_transversales_estan_ubicados_con_una_tabla.png" 1768344536 374191 1f3a104645b3318ed710f2dbaa958ad8 ""
   "figs//015_diagrama_como_funciona_el_AG_para_la_sumas_funcion_P_y_como_se_relaciona_con_operadores_geneticos_del_AG.jpg" 1768344536 77035 0d0af2c6f73f96b42b50a4122e0712f1 ""
   "figs/resultados/abolladura//005_abolladura_comparativa_global_de_ICD_vs_daño_por_zona_mudline_medio_y_splash_zone.png" 1768344536 173432 6eb1310b597db82d8d3c078992564795 ""
   "figs/resultados/abolladura//006_abolladura_ICD_por_zona_desglozadp_por_tipo_de_elemento_desde_mudline_medio_y_splash_zone.png" 1768344536 211325 cd7f97f7019ff9eecefdc7b219ce0947 ""
   "figs/resultados/corrosion//005_corrosion_comparativa_global_de_ICD_vs_daño_por_zona_mudline_medio_y_splash_zone.png" 1768344536 214808 e8a7103a5ada44f09c0946e131483701 ""
   "figs/resultados/corrosion//006_corrosion_ICD_por_zona_desglozadp_por_tipo_de_elemento_desde_mudline_medio_y_splash_zone.png" 1768344536 319856 9ad593997f6635b205206f5092f92b5e ""
-  "main.aux" 1768676786 2795 981b1498cef46143b9d16b1cb82000a4 "pdflatex"
-  "main.nav" 1768676786 1388 37fb167c90003b6656a249083ce3750a "pdflatex"
-  "main.out" 1768676784 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1768676783 9493 9cf020ec6c01ac26708905a23ff3a03b ""
+  "main.aux" 1768678340 3182 f33838e0202fcd6ad55d33a2ab57b505 "pdflatex"
+  "main.nav" 1768678340 1667 223530e0d280496bcaab89de82b2e7ab "pdflatex"
+  "main.out" 1768678338 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1768678285 9200 4cc3df73d9cf7bb9e7a0a1933225fcf3 ""
   (generated)
   "main.aux"
   "main.log"

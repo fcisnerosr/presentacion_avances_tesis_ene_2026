@@ -45,27 +45,26 @@
     \end{itemize}
 \end{frame}
 
-% Slide 3: Metodología Propuesta (1/2)
-\begin{frame}{Metodología Propuesta (1/2)}
-    \begin{columns}
-        \column{0.5\textwidth}
-        \centering
-        \includegraphics[width=\textwidth, height=0.7\textheight, keepaspectratio]{005_metogologia_propuesta_para_identificar_daños_en_plataformas_reales.jpg}
-        \vspace{0.2cm}
-        \small{Flujo de identificación en plataformas reales.}
-        
-        \column{0.5\textwidth}
-        \centering
-        \includegraphics[width=\textwidth, height=0.7\textheight, keepaspectratio]{006_metodología_del_AG_para_localizar_daños_a_nivel_computacional.jpg}
-        \vspace{0.2cm}
-        \small{Esquema computacional del AG.}
-    \end{columns}
+% Slide 3: Metodología Propuesta (1/3)
+\begin{frame}{Metodología Propuesta (1/3): Flujo General}
+    \centering
+    \includegraphics[width=\textwidth, height=0.8\textheight, keepaspectratio]{005_metogologia_propuesta_para_identificar_daños_en_plataformas_reales.jpg}
+    \vspace{0.2cm}
+    \captionof{figure}{Flujo de identificación en plataformas reales.}
 \end{frame}
 
-% Slide 4: Metodología Propuesta (2/2)
-\begin{frame}{Metodología Propuesta (2/2): El Algoritmo Genético}
+% Slide 4: Metodología Propuesta (2/3)
+\begin{frame}{Metodología Propuesta (2/3): Esquema Computacional}
     \centering
-    \includegraphics[width=0.9\textwidth, height=0.75\textheight, keepaspectratio]{015_diagrama_como_funciona_el_AG_para_la_sumas_funcion_P_y_como_se_relaciona_con_operadores_geneticos_del_AG.jpg}
+    \includegraphics[width=\textwidth, height=0.8\textheight, keepaspectratio]{006_metodología_del_AG_para_localizar_daños_a_nivel_computacional.jpg}
+    \vspace{0.2cm}
+    \captionof{figure}{Esquema computacional del AG.}
+\end{frame}
+
+% Slide 5: Metodología Propuesta (3/3)
+\begin{frame}{Metodología Propuesta (3/3): El Algoritmo Genético}
+    \centering
+    \includegraphics[width=\textwidth, height=0.8\textheight, keepaspectratio]{015_diagrama_como_funciona_el_AG_para_la_sumas_funcion_P_y_como_se_relaciona_con_operadores_geneticos_del_AG.jpg}
     \captionof{figure}{Mecánica del AG: función objetivo y operadores genéticos.}
 \end{frame}
 
@@ -76,50 +75,42 @@
     \end{itemize}
     \vspace{0.3cm}
     \begin{columns}
-        \column{0.33\textwidth}
+        \column{0.5\textwidth}
         \centering
-        \includegraphics[width=\textwidth, height=0.55\textheight, keepaspectratio]{007_modelo_vista_fronta_de_plataforma_tipo_jacket_de_caso_de_estudio.png}
+        \includegraphics[width=\textwidth, height=0.6\textheight, keepaspectratio]{007_modelo_vista_fronta_de_plataforma_tipo_jacket_de_caso_de_estudio.png}
         \tiny{Vista Frontal}
         
-        \column{0.33\textwidth}
+        \column{0.5\textwidth}
         \centering
-        \includegraphics[width=\textwidth, height=0.55\textheight, keepaspectratio]{007_modeo_vista_3d_de_plataforma_tipo_jacket_de_caso_de_estudio.png}
+        \includegraphics[width=\textwidth, height=0.6\textheight, keepaspectratio]{007_modeo_vista_3d_de_plataforma_tipo_jacket_de_caso_de_estudio.png}
         \tiny{Vista 3D}
-        
-        \column{0.33\textwidth}
-        \centering
-        \includegraphics[width=\textwidth, height=0.55\textheight, keepaspectratio]{007_modeo_vista_3d_de_plataforma_tipo_jacket_de_caso_de_estudio_pero_con_colores_para_saber_que_secciones_transversales_estan_ubicados_con_una_tabla.png}
-        \tiny{Secciones Transversales}
     \end{columns}
 \end{frame}
 
 % Slide 6: Modelado de Daño - Abolladura
 \begin{frame}{Modelado de Daño: Abolladura}
-    \textbf{Enfoque:} Reducción de rigidez localizada en elementos viga (validado en literatura).
+    \textbf{Enfoque:} Reducción de rigidez localizada en elementos viga.
     \vspace{0.3cm}
     
     \begin{figure}
         \centering
-        \begin{subfigure}[b]{0.32\textwidth}
-            \includegraphics[width=\textwidth]{003_elemento_tubular_con_abolladura_excesiva.png}
-            \caption{\tiny Daño físico}
-        \end{subfigure}
-        \hfill
-        \begin{subfigure}[b]{0.32\textwidth}
-            \includegraphics[width=\textwidth]{004_modelo_elemento_tubula_seccion_longitudinal_parametros_abolladura.png}
-            \caption{\tiny Parametrización}
-        \end{subfigure}
-        \hfill
-        \begin{subfigure}[b]{0.32\textwidth}
+        \begin{subfigure}[b]{0.5\textwidth}
+            \centering
             \includegraphics[width=\textwidth]{004_seccion_transversal_de_elemento_tubular_parametros_abolladura_con_elementos_discretizados.png}
             \caption{\tiny Sección Transversal}
+        \end{subfigure}
+        \\[0.2cm]
+        \begin{subfigure}[b]{0.95\textwidth}
+            \centering
+            \includegraphics[width=\textwidth]{004_modelo_elemento_tubula_seccion_longitudinal_parametros_abolladura.png}
+            \caption{\tiny Parametrización}
         \end{subfigure}
     \end{figure}
 \end{frame}
 
 % Slide 7: Modelado de Daño - Corrosión
 \begin{frame}{Modelado de Daño: Corrosión}
-    \textbf{Enfoque:} Corrosión Uniforme por zonas (Splash Zone vs. Sumergida) como proxy de degradación de rigidez.
+    \textbf{Enfoque:} Corrosión Uniforme por zonas (Splash Zone vs. Sumergida).
     \vspace{0.3cm}
     
     \begin{columns}
@@ -168,34 +159,36 @@
     \end{alertblock}
 \end{frame}
 
-% Slide 10: Resultados - Abolladura
-\begin{frame}{Resultados: Detección de Abolladura}
-    \begin{columns}
-        \column{0.5\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{005_abolladura_comparativa_global_de_ICD_vs_daño_por_zona_mudline_medio_y_splash_zone.png}
-        \small{Comparativa Global ICD vs Daño}
-        
-        \column{0.5\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{006_abolladura_ICD_por_zona_desglozadp_por_tipo_de_elemento_desde_mudline_medio_y_splash_zone.png}
-        \small{Desglose por Zona y Tipo de Elemento}
-    \end{columns}
+% Slide 10: Resultados - Abolladura (1/2)
+\begin{frame}{Resultados: Detección de Abolladura (1/2)}
+    \centering
+    \includegraphics[width=\textwidth, height=0.75\textheight, keepaspectratio]{005_abolladura_comparativa_global_de_ICD_vs_daño_por_zona_mudline_medio_y_splash_zone.png}
+    \vspace{0.2cm}
+    \captionof{figure}{Comparativa Global ICD vs Daño}
 \end{frame}
 
-% Slide 11: Resultados - Corrosión
-\begin{frame}{Resultados: Detección de Corrosión}
-    \begin{columns}
-        \column{0.5\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{005_corrosion_comparativa_global_de_ICD_vs_daño_por_zona_mudline_medio_y_splash_zone.png}
-        \small{Comparativa Global ICD vs Corrosión}
-        
-        \column{0.5\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{006_corrosion_ICD_por_zona_desglozadp_por_tipo_de_elemento_desde_mudline_medio_y_splash_zone.png}
-        \small{Desglose por Zona}
-    \end{columns}
+% Slide 11: Resultados - Abolladura (2/2)
+\begin{frame}{Resultados: Detección de Abolladura (2/2)}
+    \centering
+    \includegraphics[width=\textwidth, height=0.75\textheight, keepaspectratio]{006_abolladura_ICD_por_zona_desglozadp_por_tipo_de_elemento_desde_mudline_medio_y_splash_zone.png}
+    \vspace{0.2cm}
+    \captionof{figure}{Desglose por Zona y Tipo de Elemento}
+\end{frame}
+
+% Slide 12: Resultados - Corrosión (1/2)
+\begin{frame}{Resultados: Detección de Corrosión (1/2)}
+    \centering
+    \includegraphics[width=\textwidth, height=0.75\textheight, keepaspectratio]{005_corrosion_comparativa_global_de_ICD_vs_daño_por_zona_mudline_medio_y_splash_zone.png}
+    \vspace{0.2cm}
+    \captionof{figure}{Comparativa Global ICD vs Corrosión}
+\end{frame}
+
+% Slide 13: Resultados - Corrosión (2/2)
+\begin{frame}{Resultados: Detección de Corrosión (2/2)}
+    \centering
+    \includegraphics[width=\textwidth, height=0.75\textheight, keepaspectratio]{006_corrosion_ICD_por_zona_desglozadp_por_tipo_de_elemento_desde_mudline_medio_y_splash_zone.png}
+    \vspace{0.2cm}
+    \captionof{figure}{Desglose por Zona}
 \end{frame}
 
 % Slide 12: Estado de la Publicación
