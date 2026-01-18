@@ -1,7 +1,9 @@
 \documentclass{beamer}
 
 \usetheme{Madrid}
+\useoutertheme{miniframes}
 \usecolortheme{whale}
+\setbeamerfont{section in head/foot}{size=\fontsize{6}{7}\selectfont}
 
 \usepackage[utf8]{inputenc}
 \usepackage[spanish]{babel}
@@ -21,6 +23,9 @@
 \date{Viernes 23 de enero de 2026}
 
 \begin{document}
+
+% Estructura de secciones para barra de navegación
+\section[Intro]{Introducción}
 
 % Slide 1: Carátula Institucional Personalizada
 \begin{frame}[plain]
@@ -65,6 +70,7 @@
 \end{frame}
 
 % Slide 2: Introducción y Alcance
+\subsection{Alcance y Problemática}
 \begin{frame}{Introducción y Alcance}
     \begin{itemize}
         \item \textbf{Contexto:} Avances finales previos a la defensa de tesis (Evaluación de 7º Semestre).
@@ -83,6 +89,8 @@
 \end{frame}
 
 % Slide 3: Metodología Propuesta (1/3)
+\section[Metodología]{Metodología}
+\subsection{Flujo General}
 \begin{frame}{Metodología Propuesta (1/3): Flujo General}
     \centering
     \includegraphics[width=\textwidth, height=0.8\textheight, keepaspectratio]{005_metogologia_propuesta_para_identificar_daños_en_plataformas_reales.jpg}
@@ -91,6 +99,7 @@
 \end{frame}
 
 % Slide 4: Metodología Propuesta (2/3)
+\subsection{Algoritmo Genético}
 \begin{frame}{Metodología Propuesta (2/3): Esquema Computacional}
     \centering
     \includegraphics[width=\textwidth, height=0.8\textheight, keepaspectratio]{006_metodología_del_AG_para_localizar_daños_a_nivel_computacional.jpg}
@@ -107,16 +116,20 @@
 
 
 % Justificación de los tipos de daño: Abolladuras
+\section[Justificación]{Justificación de Daños}
+\subsection{Abolladuras}
 \begin{frame}{Justificación de los tipos de daño: Abolladuras}
     % (Contenido pendiente)
 \end{frame}
 
 % Justificación de los tipos de daño: Corrosión
+\subsection{Corrosión}
 \begin{frame}{Justificación de los tipos de daño: Corrosión}
     % (Contenido pendiente)
 \end{frame}
 
 % Caso de Estudio (Modelo Jacket)
+\section[Caso]{Caso de Estudio}
 \begin{frame}{Caso de Estudio: Plataforma Tipo Jacket}
     \begin{itemize}
         \item Plataforma marina fija discretizada mediante elementos viga.
@@ -136,6 +149,8 @@
 \end{frame}
 
 % Slide 6: Modelado de Daño - Abolladura
+\section[Modelado]{Modelado de Daño}
+\subsection{Abolladura}
 \begin{frame}{Modelado de Daño: Abolladura}
     \textbf{Enfoque:} Reducción de rigidez localizada en elementos viga.
     \vspace{0.3cm}
@@ -157,6 +172,7 @@
 \end{frame}
 
 % Slide 7: Modelado de Daño - Corrosión
+\subsection{Corrosión}
 \begin{frame}{Modelado de Daño: Corrosión}
     \textbf{Enfoque:} Corrosión Uniforme por zonas (Splash Zone vs. Sumergida).
     \vspace{0.3cm}
@@ -167,6 +183,7 @@
 \end{frame}
 
 % Slide 8: Efectos Inerciales y Ambientales (1/2)
+\section[Efectos]{Efectos Inerciales y Ambientales}
 \begin{frame}{Efectos Inerciales y Ambientales (1/2)}
     \textbf{Consideraciones:} Inclusión de masa añadida hidrodinámica y crecimiento marino (biofouling).
     \vspace{0.3cm}
@@ -184,6 +201,7 @@
 \end{frame}
 
 % Slide 9: Aportación Novedosa (ICD)
+\section[ICD]{Índice de Calidad de Detección (ICD)}
 \begin{frame}{Aportación Novedosa: Índice de Calidad de Detección (ICD)}
     \begin{block}{Definición ICD}
         Métrica híbrida optimizada evolutivamente que pondera:
@@ -244,6 +262,8 @@
 \end{frame}
 
 % Slide 10: Resultados - Abolladura (1/2)
+\section[Resultados]{Resultados}
+\subsection{Abolladura}
 \begin{frame}{Resultados: Detección de Abolladura (1/2)}
     \centering
     \includegraphics[width=\textwidth, height=0.75\textheight, keepaspectratio]{005_abolladura_comparativa_global_de_ICD_vs_daño_por_zona_mudline_medio_y_splash_zone.png}
@@ -260,6 +280,7 @@
 \end{frame}
 
 % Slide 12: Resultados - Corrosión (1/2)
+\subsection{Corrosión}
 \begin{frame}{Resultados: Detección de Corrosión (1/2)}
     \centering
     \includegraphics[width=\textwidth, height=0.75\textheight, keepaspectratio]{005_corrosion_comparativa_global_de_ICD_vs_daño_por_zona_mudline_medio_y_splash_zone.png}
@@ -276,6 +297,7 @@
 \end{frame}
 
 % Slide 12: Estado de la Publicación
+\section{Publicación y Conclusiones}
 \begin{frame}{Estatus de Publicación JCR}
     \begin{itemize}
         \setlength\itemsep{1em} % Espacio entre puntos
@@ -299,6 +321,7 @@
 \end{frame}
 
 % Slide 13: Comentarios Finales
+\subsection{Comentarios Finales}
 \begin{frame}{Comentarios Finales y Siguientes Pasos}
     \begin{enumerate}
         \item \textbf{Validación:} El modelo simplificado de daño (abolladura/corrosión) demuestra ser computacionalmente eficiente y representativo.
