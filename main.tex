@@ -5,6 +5,7 @@
 
 \usepackage[utf8]{inputenc}
 \usepackage[spanish]{babel}
+\decimalpoint
 \usepackage{graphicx}
 \usepackage{subcaption}
 \usepackage{booktabs}
@@ -21,9 +22,46 @@
 
 \begin{document}
 
-% Slide 1
-\begin{frame}
-    \titlepage
+% Slide 1: Carátula Institucional Personalizada
+\begin{frame}[plain]
+    \centering
+    % 1. Logo Institucional
+    \includegraphics[height=1.3cm]{000_logo.png}
+    \vspace{0.2cm}
+
+    % 2. Encabezado Institucional
+    \vspace{0.1cm}
+    {\footnotesize Coordinación Académica del Posgrado} \\
+    {\footnotesize Dirección de Desarrollo de Talento}
+
+    \vspace{0.6cm}
+
+    % 3. Contexto del Evento
+    {\bfseries \textit{EVALUACIÓN DE DESEMPEÑO}} \\
+    \vspace{0.1cm}
+    Trabajo de Investigación de Doctorado
+
+    \vspace{0.4cm}
+
+    % 4. Título de la Tesis
+    \begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+        \usebeamerfont{title}Desarrollo de una metodología para la detección de daño en plataformas marinas fijas por medio de análisis de vibraciones\par
+    \end{beamercolorbox}
+
+    \vspace{0.4cm}
+
+    % 5. Autor
+    \textbf{M. I. Francisco Cisneros}
+
+    \vfill
+
+    % 6. Pie de Página
+    {\footnotesize
+    Directores: Dr. Iván Félix González y Dr. Rolando Salgado Estrada \\
+    \vspace{0.1cm}
+    Periodo: Invierno 2025
+    }
+    \vspace{0.2cm}
 \end{frame}
 
 % Slide 2: Introducción y Alcance
@@ -39,7 +77,6 @@
         \vspace{0.5cm}
         \item \textbf{Solución Propuesta:}
         \begin{itemize}
-            \item Sistema SHM robusto ante la falta de sensores.
             \item Hibridación de Algoritmos Genéticos (AG) con Modelos de Elemento Finito (FEM).
         \end{itemize}
     \end{itemize}
@@ -68,7 +105,18 @@
     \captionof{figure}{Mecánica del AG: función objetivo y operadores genéticos.}
 \end{frame}
 
-% Slide 5: Caso de Estudio (Modelo Jacket)
+
+% Justificación de los tipos de daño: Abolladuras
+\begin{frame}{Justificación de los tipos de daño: Abolladuras}
+    % (Contenido pendiente)
+\end{frame}
+
+% Justificación de los tipos de daño: Corrosión
+\begin{frame}{Justificación de los tipos de daño: Corrosión}
+    % (Contenido pendiente)
+\end{frame}
+
+% Caso de Estudio (Modelo Jacket)
 \begin{frame}{Caso de Estudio: Plataforma Tipo Jacket}
     \begin{itemize}
         \item Plataforma marina fija discretizada mediante elementos viga.
@@ -141,12 +189,12 @@
         Métrica híbrida optimizada evolutivamente que pondera:
         \begin{itemize}
             \item Sensibilidad de modos de vibración de orden superior.
-            \item Robustez ante la incertidumbre y ruido experimental.
+            \item Robustez ante la incertidumbre.
         \end{itemize}
     \end{block}
     \vspace{0.5cm}
     \begin{alertblock}{Optimización}
-        El Algoritmo Genético no solo busca el daño, sino que optimiza los pesos de ponderación del ICD para maximizar la detectabilidad en escenarios de ruido.
+        El Algoritmo Genético no solo busca el daño, sino que optimiza los pesos de ponderación del ICD para maximizar la detectabilidad.
     \end{alertblock}
 \end{frame}
 
@@ -157,6 +205,8 @@
         \begin{equation}
             \text{ICD} = D \times C_{\text{norm}}(\delta) \times P_{\text{FP}}(N_{\text{FP}})
         \end{equation}
+        \vspace{0.1cm}
+        \centering \small \textbf{Interpretación:} $\text{ICD} \in [0, 1]$ \quad (Donde $1.0 =$ Detección perfecta).
     \end{block}
 
     \vspace{0.2cm}
@@ -187,9 +237,8 @@
             \textbf{3. Penalización ($P_{\text{FP}}$)}
             \begin{itemize} \footnotesize
                 \item Decaimiento exponencial.
-                \item Castiga severamente la pérdida de confiabilidad ($\beta=0.15$).
             \end{itemize}
-            $$e^{-\beta N_{\text{FP}}}$$
+            $$e^{- N_{\text{FP}}}$$
         \end{column}
     \end{columns}
 \end{frame}
@@ -229,14 +278,23 @@
 % Slide 12: Estado de la Publicación
 \begin{frame}{Estatus de Publicación JCR}
     \begin{itemize}
-        \item \textbf{Título Tentativo:} Metodología basada en ICD y Algoritmos Genéticos para detección de daño estructural.
-        \item \textbf{Revista Objetivo:} Ingeniería Investigación y Tecnología.
-        \item \textbf{Estatus:}
+        \setlength\itemsep{1em} % Espacio entre puntos
+
+        \item \textbf{Título:} \\
+        \textit{"Proposal of a Detection Quality Index (DQI) for Damage Identification in Jacket Platforms Using Genetic Algorithms."}
+
+        \item \textbf{Revista Objetivo:} \\
+        \textit{Journal of Civil Structural Health Monitoring} (Q1).
+
+        \item \textbf{Estatus Actual:}
         \begin{itemize}
-            \item Resultados de ICD consolidados.
-            \item Artículo en proceso de redacción y formateo.
-            \item Requisito indispensable para la graduación.
+            \item Resultados del ICD consolidados.
+            \item Artículo en proceso de redacción y formato.
+            \item Requisito obligatorio para la graduación.
         \end{itemize}
+
+        \item \textbf{Antecedentes y Perspectiva:} \\
+        El manuscrito inicial fue rechazado en la revista \textit{Ocean Engineering}. Sin embargo, dicha versión carecía de la validación robusta actual. La integración del nuevo \textbf{Índice de Calidad de Detección (ICD)} subsana las limitaciones previas y fortalece la contribución científica, asegurando una propuesta sólida para este nuevo envío.
     \end{itemize}
 \end{frame}
 
@@ -244,12 +302,12 @@
 \begin{frame}{Comentarios Finales y Siguientes Pasos}
     \begin{enumerate}
         \item \textbf{Validación:} El modelo simplificado de daño (abolladura/corrosión) demuestra ser computacionalmente eficiente y representativo.
-        \item \textbf{Eficacia del ICD:} La métrica híbrida supera a los indicadores tradicionales en escenarios de ruido.
         \item \textbf{Ruta Crítica (8º Semestre):}
         \begin{itemize}
             \item Envío y revisión del artículo JCR.
             \item Escritura final de la tesis.
             \item Defensa de grado.
+            \item Profundizar en el estudio, generación y análisis de resultados para daños por grietas en la base (fagita) y deflexiones excesivas, aplicando la misma metodología.
         \end{itemize}
     \end{enumerate}
 \end{frame}

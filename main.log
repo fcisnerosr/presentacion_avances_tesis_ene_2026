@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.7.18)  17 JAN 2026 13:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.7.18)  17 JAN 2026 22:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -753,7 +753,7 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 18.
+(hyperref)                removing `\\' on input line 19.
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
@@ -766,24 +766,24 @@ LaTeX Info: Redefining \% on input line 25.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -841,7 +841,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 22.
+Package hyperref Info: Link coloring OFF on input line 23.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -854,66 +854,66 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count347
 )
-LaTeX Info: Redefining \ref on input line 22.
-LaTeX Info: Redefining \pageref on input line 22.
-LaTeX Info: Redefining \nameref on input line 22.
+LaTeX Info: Redefining \ref on input line 23.
+LaTeX Info: Redefining \pageref on input line 23.
+LaTeX Info: Redefining \nameref on input line 23.
 
 (./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 22.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 23.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 22.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 23.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 22.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 22.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 22.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 22.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 23.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 22.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 22.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 22.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 23.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 22.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 22.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 22.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 23.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 22.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 22.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 23.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 22.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 23.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 22.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 22.
+(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 22.
+(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 22.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 22.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 22.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 22.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 23.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 23.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
 (Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 2
-2.
+3.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 2
-2.
+3.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 22.
+ut line 23.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
 -English.dict
@@ -939,41 +939,53 @@ Dictionary: translator-numbers-dictionary, Language: English
 ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \. on input line 22.
-LaTeX Info: Redefining \% on input line 22.
+LaTeX Info: Redefining \. on input line 23.
+LaTeX Info: Redefining \% on input line 23.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
- (./main.nav) [1
+ (./main.nav)
+<./figs//000_logo.png, id=14, 532.23843pt x 200.24812pt>
+File: ./figs//000_logo.png Graphic file (type png)
+<use ./figs//000_logo.png>
+Package pdftex.def Info: ./figs//000_logo.png  used on input line 65.
+(pdftex.def)             Requested size: 98.30826pt x 36.98866pt.
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+
+LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
+(Font)              using `OT1/cmss/bx/n' instead on input line 65.
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figs//000_logo.png>]
 LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
-46.
- (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmss.fd
+83.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmss.fd
 File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 ) [2
 
 ]
 <./figs//005_metogologia_propuesta_para_identificar_daños_en_plataformas_reale
-s.jpg, id=90, 1560.83125pt x 779.91376pt>
+s.jpg, id=91, 1560.83125pt x 779.91376pt>
 File: ./figs//005_metogologia_propuesta_para_identificar_daños_en_plataformas_
 reales.jpg Graphic file (type jpg)
 <use ./figs//005_metogologia_propuesta_para_identificar_daños_en_plataformas_r
 eales.jpg>
 Package pdftex.def Info: ./figs//005_metogologia_propuesta_para_identificar_da�
-�os_en_plataformas_reales.jpg  used on input line 54.
+�os_en_plataformas_reales.jpg  used on input line 91.
 (pdftex.def)             Requested size: 342.28839pt x 171.03413pt.
  [3
 
  <./figs//005_metogologia_propuesta_para_identificar_daños_en_plataformas_real
 es.jpg>]
 <./figs//006_metodología_del_AG_para_localizar_daños_a_nivel_computacional.jp
-g, id=117, 963.6pt x 429.85594pt>
+g, id=118, 963.6pt x 429.85594pt>
 File: ./figs//006_metodología_del_AG_para_localizar_daños_a_nivel_computacion
 al.jpg Graphic file (type jpg)
 <use ./figs//006_metodología_del_AG_para_localizar_daños_a_nivel_computaciona
 l.jpg>
 Package pdftex.def Info: ./figs//006_metodología_del_AG_para_localizar_daños_
-a_nivel_computacional.jpg  used on input line 62.
+a_nivel_computacional.jpg  used on input line 99.
 (pdftex.def)             Requested size: 342.2936pt x 152.69502pt.
 
 [4
@@ -981,95 +993,99 @@ a_nivel_computacional.jpg  used on input line 62.
  <./figs//006_metodología_del_AG_para_localizar_daños_a_nivel_computacional.j
 pg>]
 <./figs//015_diagrama_como_funciona_el_AG_para_la_sumas_funcion_P_y_como_se_rel
-aciona_con_operadores_geneticos_del_AG.jpg, id=145, 913.4125pt x 1332.98pt>
+aciona_con_operadores_geneticos_del_AG.jpg, id=146, 913.4125pt x 1332.98pt>
 File: ./figs//015_diagrama_como_funciona_el_AG_para_la_sumas_funcion_P_y_como_s
 e_relaciona_con_operadores_geneticos_del_AG.jpg Graphic file (type jpg)
 <use ./figs//015_diagrama_como_funciona_el_AG_para_la_sumas_funcion_P_y_como_se
 _relaciona_con_operadores_geneticos_del_AG.jpg>
 Package pdftex.def Info: ./figs//015_diagrama_como_funciona_el_AG_para_la_sumas
 _funcion_P_y_como_se_relaciona_con_operadores_geneticos_del_AG.jpg  used on inp
-ut line 69.
+ut line 106.
 (pdftex.def)             Requested size: 142.79004pt x 208.3793pt.
 
-Overfull \vbox (5.30872pt too high) detected at line 69
+Overfull \vbox (5.30872pt too high) detected at line 106
  []
 
 [5
 
  <./figs//015_diagrama_como_funciona_el_AG_para_la_sumas_funcion_P_y_como_se_re
-laciona_con_operadores_geneticos_del_AG.jpg>]
+laciona_con_operadores_geneticos_del_AG.jpg>] [6
+
+] [7
+
+]
 <./figs//007_modelo_vista_fronta_de_plataforma_tipo_jacket_de_caso_de_estudio.p
-ng, id=172, 281.55188pt x 674.52pt>
+ng, id=226, 281.55188pt x 674.52pt>
 File: ./figs//007_modelo_vista_fronta_de_plataforma_tipo_jacket_de_caso_de_estu
 dio.png Graphic file (type png)
 <use ./figs//007_modelo_vista_fronta_de_plataforma_tipo_jacket_de_caso_de_estud
 io.png>
 Package pdftex.def Info: ./figs//007_modelo_vista_fronta_de_plataforma_tipo_jac
-ket_de_caso_de_estudio.png  used on input line 88.
+ket_de_caso_de_estudio.png  used on input line 136.
 (pdftex.def)             Requested size: 65.23672pt x 156.28908pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 88.
-
+LaTeX Font Info:    Trying to load font information for U+msa on input line 136
+.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 88.
-
+LaTeX Font Info:    Trying to load font information for U+msb on input line 136
+.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 88.
+ut line 136.
 
 (/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
 <./figs//007_modeo_vista_3d_de_plataforma_tipo_jacket_de_caso_de_estudio.png, i
-d=173, 302.63063pt x 650.43pt>
+d=227, 302.63063pt x 650.43pt>
 File: ./figs//007_modeo_vista_3d_de_plataforma_tipo_jacket_de_caso_de_estudio.p
 ng Graphic file (type png)
 <use ./figs//007_modeo_vista_3d_de_plataforma_tipo_jacket_de_caso_de_estudio.pn
 g>
 Package pdftex.def Info: ./figs//007_modeo_vista_3d_de_plataforma_tipo_jacket_d
-e_caso_de_estudio.png  used on input line 88.
+e_caso_de_estudio.png  used on input line 136.
 (pdftex.def)             Requested size: 72.71594pt x 156.28503pt.
 
-[6
+[8
 
  <./figs//007_modelo_vista_fronta_de_plataforma_tipo_jacket_de_caso_de_estudio.
 png> <./figs//007_modeo_vista_3d_de_plataforma_tipo_jacket_de_caso_de_estudio.p
 ng>]
 <./figs//004_seccion_transversal_de_elemento_tubular_parametros_abolladura_con_
-elementos_discretizados.png, id=200, 232.61906pt x 148.30406pt>
+elementos_discretizados.png, id=255, 232.61906pt x 148.30406pt>
 File: ./figs//004_seccion_transversal_de_elemento_tubular_parametros_abolladura
 _con_elementos_discretizados.png Graphic file (type png)
 <use ./figs//004_seccion_transversal_de_elemento_tubular_parametros_abolladura_
 con_elementos_discretizados.png>
 Package pdftex.def Info: ./figs//004_seccion_transversal_de_elemento_tubular_pa
-rametros_abolladura_con_elementos_discretizados.png  used on input line 109.
+rametros_abolladura_con_elementos_discretizados.png  used on input line 157.
 (pdftex.def)             Requested size: 171.14764pt x 109.11644pt.
 <./figs//004_modelo_elemento_tubula_seccion_longitudinal_parametros_abolladura.
-png, id=201, 485.56406pt x 109.1578pt>
+png, id=256, 485.56406pt x 109.1578pt>
 File: ./figs//004_modelo_elemento_tubula_seccion_longitudinal_parametros_abolla
 dura.png Graphic file (type png)
 <use ./figs//004_modelo_elemento_tubula_seccion_longitudinal_parametros_abollad
 ura.png>
 Package pdftex.def Info: ./figs//004_modelo_elemento_tubula_seccion_longitudina
-l_parametros_abolladura.png  used on input line 109.
+l_parametros_abolladura.png  used on input line 157.
 (pdftex.def)             Requested size: 325.17949pt x 73.10202pt.
 
-Overfull \vbox (24.00334pt too high) detected at line 109
+Overfull \vbox (24.00334pt too high) detected at line 157
  []
 
-[7
+[9
 
  <./figs//004_seccion_transversal_de_elemento_tubular_parametros_abolladura_con
 _elementos_discretizados.png> <./figs//004_modelo_elemento_tubula_seccion_longi
 tudinal_parametros_abolladura.png>]
 <./figs//004_modelo_elemento_tubular_con_caracterizacion_corrosion_longitudinal
-_donde_muestran_tramos_con_reduccion_espesor.png, id=233, 486.31688pt x 197.989
+_donde_muestran_tramos_con_reduccion_espesor.png, id=286, 486.31688pt x 197.989
 69pt>
 File: ./figs//004_modelo_elemento_tubular_con_caracterizacion_corrosion_longitu
 dinal_donde_muestran_tramos_con_reduccion_espesor.png Graphic file (type png)
@@ -1077,62 +1093,62 @@ dinal_donde_muestran_tramos_con_reduccion_espesor.png Graphic file (type png)
 inal_donde_muestran_tramos_con_reduccion_espesor.png>
 Package pdftex.def Info: ./figs//004_modelo_elemento_tubular_con_caracterizacio
 n_corrosion_longitudinal_donde_muestran_tramos_con_reduccion_espesor.png  used 
-on input line 119.
+on input line 167.
 (pdftex.def)             Requested size: 342.2969pt x 139.35616pt.
- [8
+ [10
 
  <./figs//004_modelo_elemento_tubular_con_caracterizacion_corrosion_longitudina
 l_donde_muestran_tramos_con_reduccion_espesor.png>]
 <./figs//001_modelo_plataforma_con_elemento_tubular_masa_adherida_y_masa_atrapa
-da.png, id=262, 429.85594pt x 208.52907pt>
+da.png, id=314, 429.85594pt x 208.52907pt>
 File: ./figs//001_modelo_plataforma_con_elemento_tubular_masa_adherida_y_masa_a
 trapada.png Graphic file (type png)
 <use ./figs//001_modelo_plataforma_con_elemento_tubular_masa_adherida_y_masa_at
 rapada.png>
 Package pdftex.def Info: ./figs//001_modelo_plataforma_con_elemento_tubular_mas
-a_adherida_y_masa_atrapada.png  used on input line 129.
+a_adherida_y_masa_atrapada.png  used on input line 177.
 (pdftex.def)             Requested size: 290.96011pt x 141.14877pt.
- [9
+ [11
 
  <./figs//001_modelo_plataforma_con_elemento_tubular_masa_adherida_y_masa_atrap
 ada.png>]
 <./figs//001_modelo_plataforma_con_elemento_tubular_masa_de_crecimiento_marino.
-png, id=290, 490.83376pt x 249.93375pt>
+png, id=342, 490.83376pt x 249.93375pt>
 File: ./figs//001_modelo_plataforma_con_elemento_tubular_masa_de_crecimiento_ma
 rino.png Graphic file (type png)
 <use ./figs//001_modelo_plataforma_con_elemento_tubular_masa_de_crecimiento_mar
 ino.png>
 Package pdftex.def Info: ./figs//001_modelo_plataforma_con_elemento_tubular_mas
-a_de_crecimiento_marino.png  used on input line 136.
+a_de_crecimiento_marino.png  used on input line 184.
 (pdftex.def)             Requested size: 290.95998pt x 148.15753pt.
- [10
+ [12
 
  <./figs//001_modelo_plataforma_con_elemento_tubular_masa_de_crecimiento_marino
-.png>] [11
+.png>] [13
 
-] [12
+] [14
 
 ]
 <./figs/resultados/abolladura//005_abolladura_comparativa_global_de_ICD_vs_dañ
-o_por_zona_mudline_medio_y_splash_zone.png, id=420, 1003.8303pt x 570.933pt>
+o_por_zona_mudline_medio_y_splash_zone.png, id=472, 1003.8303pt x 570.933pt>
 File: ./figs/resultados/abolladura//005_abolladura_comparativa_global_de_ICD_vs
 _daño_por_zona_mudline_medio_y_splash_zone.png Graphic file (type png)
 <use ./figs/resultados/abolladura//005_abolladura_comparativa_global_de_ICD_vs_
 daño_por_zona_mudline_medio_y_splash_zone.png>
 Package pdftex.def Info: ./figs/resultados/abolladura//005_abolladura_comparati
 va_global_de_ICD_vs_daño_por_zona_mudline_medio_y_splash_zone.png  used on inp
-ut line 203.
+ut line 252.
 (pdftex.def)             Requested size: 342.29341pt x 194.68091pt.
 
-Overfull \vbox (10.90079pt too high) detected at line 203
+Overfull \vbox (10.90079pt too high) detected at line 252
  []
 
-[13
+[15
 
  <./figs/resultados/abolladura//005_abolladura_comparativa_global_de_ICD_vs_da�
 �o_por_zona_mudline_medio_y_splash_zone.png>]
 <./figs/resultados/abolladura//006_abolladura_ICD_por_zona_desglozadp_por_tipo_
-de_elemento_desde_mudline_medio_y_splash_zone.png, id=449, 1293.633pt x 865.794
+de_elemento_desde_mudline_medio_y_splash_zone.png, id=501, 1293.633pt x 865.794
 6pt>
 File: ./figs/resultados/abolladura//006_abolladura_ICD_por_zona_desglozadp_por_
 tipo_de_elemento_desde_mudline_medio_y_splash_zone.png Graphic file (type png)
@@ -1140,32 +1156,32 @@ tipo_de_elemento_desde_mudline_medio_y_splash_zone.png Graphic file (type png)
 ipo_de_elemento_desde_mudline_medio_y_splash_zone.png>
 Package pdftex.def Info: ./figs/resultados/abolladura//006_abolladura_ICD_por_z
 ona_desglozadp_por_tipo_de_elemento_desde_mudline_medio_y_splash_zone.png  used
- on input line 211.
+ on input line 260.
 (pdftex.def)             Requested size: 291.88391pt x 195.35023pt.
- [14
+ [16
 
  <./figs/resultados/abolladura//006_abolladura_ICD_por_zona_desglozadp_por_tipo
 _de_elemento_desde_mudline_medio_y_splash_zone.png>]
 <./figs/resultados/corrosion//005_corrosion_comparativa_global_de_ICD_vs_daño_
-por_zona_mudline_medio_y_splash_zone.png, id=477, 1004.553pt x 570.933pt>
+por_zona_mudline_medio_y_splash_zone.png, id=529, 1004.553pt x 570.933pt>
 File: ./figs/resultados/corrosion//005_corrosion_comparativa_global_de_ICD_vs_d
 año_por_zona_mudline_medio_y_splash_zone.png Graphic file (type png)
 <use ./figs/resultados/corrosion//005_corrosion_comparativa_global_de_ICD_vs_da
 ño_por_zona_mudline_medio_y_splash_zone.png>
 Package pdftex.def Info: ./figs/resultados/corrosion//005_corrosion_comparativa
 _global_de_ICD_vs_daño_por_zona_mudline_medio_y_splash_zone.png  used on input
- line 219.
+ line 268.
 (pdftex.def)             Requested size: 342.29459pt x 194.54152pt.
 
-Overfull \vbox (10.7614pt too high) detected at line 219
+Overfull \vbox (10.7614pt too high) detected at line 268
  []
 
-[15
+[17
 
  <./figs/resultados/corrosion//005_corrosion_comparativa_global_de_ICD_vs_daño
 _por_zona_mudline_medio_y_splash_zone.png>]
 <./figs/resultados/corrosion//006_corrosion_ICD_por_zona_desglozadp_por_tipo_de
-_elemento_desde_mudline_medio_y_splash_zone.png, id=506, 1293.633pt x 865.7946p
+_elemento_desde_mudline_medio_y_splash_zone.png, id=557, 1293.633pt x 865.7946p
 t>
 File: ./figs/resultados/corrosion//006_corrosion_ICD_por_zona_desglozadp_por_ti
 po_de_elemento_desde_mudline_medio_y_splash_zone.png Graphic file (type png)
@@ -1173,14 +1189,18 @@ po_de_elemento_desde_mudline_medio_y_splash_zone.png Graphic file (type png)
 o_de_elemento_desde_mudline_medio_y_splash_zone.png>
 Package pdftex.def Info: ./figs/resultados/corrosion//006_corrosion_ICD_por_zon
 a_desglozadp_por_tipo_de_elemento_desde_mudline_medio_y_splash_zone.png  used o
-n input line 227.
+n input line 276.
 (pdftex.def)             Requested size: 291.88391pt x 195.35023pt.
- [16
+ [18
 
  <./figs/resultados/corrosion//006_corrosion_ICD_por_zona_desglozadp_por_tipo_d
-e_elemento_desde_mudline_medio_y_splash_zone.png>] [17
+e_elemento_desde_mudline_medio_y_splash_zone.png>]
+Overfull \vbox (3.50873pt too high) detected at line 299
+ []
 
-] [18
+[19
+
+] [20
 
 ]
 \tf@nav=\write6
@@ -1196,35 +1216,37 @@ e_elemento_desde_mudline_medio_y_splash_zone.png>] [17
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 24821 strings out of 478287
- 493273 string characters out of 5849289
- 744755 words of memory out of 5000000
- 42468 multiletter control sequences out of 15000+600000
- 481780 words of font info for 72 fonts, out of 8000000 for 9000
+ 24805 strings out of 478287
+ 492671 string characters out of 5849289
+ 743755 words of memory out of 5000000
+ 42446 multiletter control sequences out of 15000+600000
+ 484579 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,16n,122p,384b,679s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi
-10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/
-texmf/fonts/type1/public/cm-super/sfss1095.pfb></usr/share/texmf/fonts/type1/pu
-blic/cm-super/sfsx1095.pfb>
-Output written on main.pdf (18 pages, 1628096 bytes).
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+si8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr
+/share/texmf/fonts/type1/public/cm-super/sfss1095.pfb></usr/share/texmf/fonts/t
+ype1/public/cm-super/sfsx1095.pfb>
+Output written on main.pdf (20 pages, 1683658 bytes).
 PDF statistics:
- 657 PDF objects out of 1000 (max. 8388607)
- 544 compressed objects within 6 object streams
- 37 named destinations out of 1000 (max. 500000)
- 287 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 708 PDF objects out of 1000 (max. 8388607)
+ 593 compressed objects within 6 object streams
+ 41 named destinations out of 1000 (max. 500000)
+ 292 words of extra memory for PDF output out of 10000 (max. 10000000)
 
