@@ -4,14 +4,15 @@
 \beamer@sectionintoc {2}{Metodología}{3}{0}{2}
 \beamer@subsectionintoc {2}{1}{Flujo General}{3}{0}{2}
 \beamer@subsectionintoc {2}{2}{Algoritmo Genético}{4}{0}{2}
-\beamer@sectionintoc {3}{Caso de Estudio}{6}{0}{3}
-\beamer@sectionintoc {4}{Efectos Inerciales y Ambientales}{7}{0}{4}
-\beamer@sectionintoc {5}{Justificación de Daños}{9}{0}{5}
-\beamer@subsectionintoc {5}{1}{Corrosión}{9}{0}{5}
-\beamer@subsectionintoc {5}{2}{Abolladuras}{11}{0}{5}
-\beamer@sectionintoc {6}{Índice de Calidad de Detección (ICD)}{12}{0}{6}
-\beamer@sectionintoc {7}{Resultados}{14}{0}{7}
-\beamer@subsectionintoc {7}{1}{Abolladura}{14}{0}{7}
-\beamer@subsectionintoc {7}{2}{Corrosión}{16}{0}{7}
-\beamer@sectionintoc {8}{Publicación y Conclusiones}{18}{0}{8}
-\beamer@subsectionintoc {8}{1}{Comentarios Finales}{19}{0}{8}
+\beamer@subsectionintoc {2}{3}{Indicadores Vibratorios}{6}{0}{2}
+\beamer@sectionintoc {3}{Efectos Inerciales y Ambientales}{9}{0}{3}
+\beamer@sectionintoc {4}{Justificación y Caracterización}{14}{0}{4}
+\beamer@subsectionintoc {4}{1}{Corrosión}{14}{0}{4}
+\beamer@subsectionintoc {4}{2}{Abolladuras}{16}{0}{4}
+\beamer@sectionintoc {5}{Índice de Calidad de Detección (ICD)}{17}{0}{5}
+\beamer@sectionintoc {6}{Caso de Estudio}{18}{0}{6}
+\beamer@sectionintoc {7}{Resultados}{19}{0}{7}
+\beamer@subsectionintoc {7}{1}{Abolladura}{19}{0}{7}
+\beamer@subsectionintoc {7}{2}{Corrosión}{21}{0}{7}
+\beamer@sectionintoc {8}{Publicación y Conclusiones}{23}{0}{8}
+\beamer@subsectionintoc {8}{1}{Comentarios Finales}{24}{0}{8}
