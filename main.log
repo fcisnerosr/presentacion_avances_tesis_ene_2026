@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.7.18)  18 JAN 2026 16:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.7.18)  18 JAN 2026 20:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -865,12 +865,8 @@ LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <8> not available
 File: ./figs//004_seccion_transversal_de_elemento_tubular_parametros_abolladura_con_elementos_discretizados.png Graphic file (type png)
 <use ./figs//004_seccion_transversal_de_elemento_tubular_parametros_abolladura_con_elementos_discretizados.png>
 Package pdftex.def Info: ./figs//004_seccion_transversal_de_elemento_tubular_parametros_abolladura_con_elementos_discretizados.png  used on input line 250.
-(pdftex.def)             Requested size: 196.09082pt x 125.01581pt.
-
-Overfull \vbox (15.9316pt too high) detected at line 250
- []
-
-[12
+(pdftex.def)             Requested size: 160.43633pt x 102.28464pt.
+ [12
 
  <./figs//004_seccion_transversal_de_elemento_tubular_parametros_abolladura_con_elementos_discretizados.png>]
 <./figs//004_modelo_elemento_tubular_seccion_longitudinal_parametros_abolladura_con_funciones_de_interpolacion.png, id=887, 380.01974pt x 85.5195pt>
@@ -882,15 +878,7 @@ Package pdftex.def Info: ./figs//004_modelo_elemento_tubular_seccion_longitudina
 
  <./figs//004_modelo_elemento_tubular_seccion_longitudinal_parametros_abolladura_con_funciones_de_interpolacion.png>] [14
 
-]
-LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <12> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 308.
-
-Overfull \hbox (7.76614pt too wide) in paragraph at lines 308--308
- [] 
- []
-
-[15
+] [15
 
 ] [16
 
@@ -900,15 +888,15 @@ Overfull \hbox (7.76614pt too wide) in paragraph at lines 308--308
 <./figs//007_modelo_vista_fronta_de_plataforma_tipo_jacket_de_caso_de_estudio.png, id=1195, 423.83344pt x 575.90157pt>
 File: ./figs//007_modelo_vista_fronta_de_plataforma_tipo_jacket_de_caso_de_estudio.png Graphic file (type png)
 <use ./figs//007_modelo_vista_fronta_de_plataforma_tipo_jacket_de_caso_de_estudio.png>
-Package pdftex.def Info: ./figs//007_modelo_vista_fronta_de_plataforma_tipo_jacket_de_caso_de_estudio.png  used on input line 409.
+Package pdftex.def Info: ./figs//007_modelo_vista_fronta_de_plataforma_tipo_jacket_de_caso_de_estudio.png  used on input line 418.
 (pdftex.def)             Requested size: 117.09456pt x 159.10718pt.
 <./figs//007_modeo_vista_3d_de_plataforma_tipo_jacket_de_caso_de_estudio.png, id=1196, 302.63063pt x 650.43pt>
 File: ./figs//007_modeo_vista_3d_de_plataforma_tipo_jacket_de_caso_de_estudio.png Graphic file (type png)
 <use ./figs//007_modeo_vista_3d_de_plataforma_tipo_jacket_de_caso_de_estudio.png>
-Package pdftex.def Info: ./figs//007_modeo_vista_3d_de_plataforma_tipo_jacket_de_caso_de_estudio.png  used on input line 409.
+Package pdftex.def Info: ./figs//007_modeo_vista_3d_de_plataforma_tipo_jacket_de_caso_de_estudio.png  used on input line 418.
 (pdftex.def)             Requested size: 74.02739pt x 159.10365pt.
 
-Overfull \vbox (28.03247pt too high) detected at line 409
+Overfull \vbox (28.03247pt too high) detected at line 418
  []
 
 [18
@@ -917,10 +905,10 @@ Overfull \vbox (28.03247pt too high) detected at line 409
 <./figs/resultados/abolladura//005_abolladura_comparativa_global_de_ICD_vs_daño_por_zona_mudline_medio_y_splash_zone.png, id=1255, 1003.8303pt x 570.933pt>
 File: ./figs/resultados/abolladura//005_abolladura_comparativa_global_de_ICD_vs_daño_por_zona_mudline_medio_y_splash_zone.png Graphic file (type png)
 <use ./figs/resultados/abolladura//005_abolladura_comparativa_global_de_ICD_vs_daño_por_zona_mudline_medio_y_splash_zone.png>
-Package pdftex.def Info: ./figs/resultados/abolladura//005_abolladura_comparativa_global_de_ICD_vs_daño_por_zona_mudline_medio_y_splash_zone.png  used on input line 421.
+Package pdftex.def Info: ./figs/resultados/abolladura//005_abolladura_comparativa_global_de_ICD_vs_daño_por_zona_mudline_medio_y_splash_zone.png  used on input line 430.
 (pdftex.def)             Requested size: 307.72249pt x 175.01854pt.
 
-Overfull \vbox (16.67876pt too high) detected at line 421
+Overfull \vbox (16.67876pt too high) detected at line 430
  []
 
 [19
@@ -929,10 +917,10 @@ Overfull \vbox (16.67876pt too high) detected at line 421
 <./figs/resultados/abolladura//006_abolladura_ICD_por_zona_desglozadp_por_tipo_de_elemento_desde_mudline_medio_y_splash_zone.png, id=1317, 1293.633pt x 865.7946pt>
 File: ./figs/resultados/abolladura//006_abolladura_ICD_por_zona_desglozadp_por_tipo_de_elemento_desde_mudline_medio_y_splash_zone.png Graphic file (type png)
 <use ./figs/resultados/abolladura//006_abolladura_ICD_por_zona_desglozadp_por_tipo_de_elemento_desde_mudline_medio_y_splash_zone.png>
-Package pdftex.def Info: ./figs/resultados/abolladura//006_abolladura_ICD_por_zona_desglozadp_por_tipo_de_elemento_desde_mudline_medio_y_splash_zone.png  used on input line 429.
+Package pdftex.def Info: ./figs/resultados/abolladura//006_abolladura_ICD_por_zona_desglozadp_por_tipo_de_elemento_desde_mudline_medio_y_splash_zone.png  used on input line 438.
 (pdftex.def)             Requested size: 261.50525pt x 175.01859pt.
 
-Overfull \vbox (16.6788pt too high) detected at line 429
+Overfull \vbox (16.6788pt too high) detected at line 438
  []
 
 [20
@@ -941,10 +929,10 @@ Overfull \vbox (16.6788pt too high) detected at line 429
 <./figs/resultados/corrosion//005_corrosion_comparativa_global_de_ICD_vs_daño_por_zona_mudline_medio_y_splash_zone.png, id=1377, 1004.553pt x 570.933pt>
 File: ./figs/resultados/corrosion//005_corrosion_comparativa_global_de_ICD_vs_daño_por_zona_mudline_medio_y_splash_zone.png Graphic file (type png)
 <use ./figs/resultados/corrosion//005_corrosion_comparativa_global_de_ICD_vs_daño_por_zona_mudline_medio_y_splash_zone.png>
-Package pdftex.def Info: ./figs/resultados/corrosion//005_corrosion_comparativa_global_de_ICD_vs_daño_por_zona_mudline_medio_y_splash_zone.png  used on input line 438.
+Package pdftex.def Info: ./figs/resultados/corrosion//005_corrosion_comparativa_global_de_ICD_vs_daño_por_zona_mudline_medio_y_splash_zone.png  used on input line 447.
 (pdftex.def)             Requested size: 307.94403pt x 175.01854pt.
 
-Overfull \vbox (16.67876pt too high) detected at line 438
+Overfull \vbox (16.67876pt too high) detected at line 447
  []
 
 [21
@@ -953,10 +941,10 @@ Overfull \vbox (16.67876pt too high) detected at line 438
 <./figs/resultados/corrosion//006_corrosion_ICD_por_zona_desglozadp_por_tipo_de_elemento_desde_mudline_medio_y_splash_zone.png, id=1438, 1293.633pt x 865.7946pt>
 File: ./figs/resultados/corrosion//006_corrosion_ICD_por_zona_desglozadp_por_tipo_de_elemento_desde_mudline_medio_y_splash_zone.png Graphic file (type png)
 <use ./figs/resultados/corrosion//006_corrosion_ICD_por_zona_desglozadp_por_tipo_de_elemento_desde_mudline_medio_y_splash_zone.png>
-Package pdftex.def Info: ./figs/resultados/corrosion//006_corrosion_ICD_por_zona_desglozadp_por_tipo_de_elemento_desde_mudline_medio_y_splash_zone.png  used on input line 446.
-(pdftex.def)             Requested size: 264.90039pt x 177.29088pt.
+Package pdftex.def Info: ./figs/resultados/corrosion//006_corrosion_ICD_por_zona_desglozadp_por_tipo_de_elemento_desde_mudline_medio_y_splash_zone.png  used on input line 455.
+(pdftex.def)             Requested size: 237.71948pt x 159.09941pt.
 
-Overfull \vbox (18.9511pt too high) detected at line 446
+Overfull \vbox (0.75963pt too high) detected at line 455
  []
 
 [22
@@ -986,15 +974,15 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: BFC923BD2C861B3D049443F13623061F;2504.
  ) 
 Here is how much of TeX's memory you used:
- 23815 strings out of 478287
- 472635 string characters out of 5849289
+ 23812 strings out of 478287
+ 472588 string characters out of 5849289
  758719 words of memory out of 5000000
- 41415 multiletter control sequences out of 15000+600000
- 497475 words of font info for 118 fonts, out of 8000000 for 9000
+ 41412 multiletter control sequences out of 15000+600000
+ 497181 words of font info for 117 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,19n,122p,444b,1018s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss0600.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1095.pfb>
-Output written on main.pdf (24 pages, 2079686 bytes).
+Output written on main.pdf (24 pages, 2078687 bytes).
 PDF statistics:
  1743 PDF objects out of 2073 (max. 8388607)
  1556 compressed objects within 16 object streams

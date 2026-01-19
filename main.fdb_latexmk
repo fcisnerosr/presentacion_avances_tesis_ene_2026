@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1768774034 "/home/fcisnerosr/github/presentacion_avances_tesis_ene_2026/main.tex" "main.pdf" "main" 1768774038
+["pdflatex"] 1768789592 "/home/fcisnerosr/github/presentacion_avances_tesis_ene_2026/main.tex" "main.pdf" "main" 1768789596
   "/etc/texmf/web2c/texmf.cnf" 1752867229 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/fcisnerosr/github/presentacion_avances_tesis_ene_2026/main.tex" 1768774034 20688 ef38ab4852e2096096d7278b284774f4 ""
+  "/home/fcisnerosr/github/presentacion_avances_tesis_ene_2026/main.tex" 1768789579 21363 b17a53ceafd716642d66549cafdf1956 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcss0600.tfm" 1136768653 1536 d1b127de7ce318d6eac2b01aea48d7ed ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcss1000.tfm" 1136768653 1536 293044035fd171bb1d18cf655049b101 ""
@@ -270,10 +270,10 @@
   "figs/resultados/abolladura//006_abolladura_ICD_por_zona_desglozadp_por_tipo_de_elemento_desde_mudline_medio_y_splash_zone.png" 1768344536 211325 cd7f97f7019ff9eecefdc7b219ce0947 ""
   "figs/resultados/corrosion//005_corrosion_comparativa_global_de_ICD_vs_daño_por_zona_mudline_medio_y_splash_zone.png" 1768344536 214808 e8a7103a5ada44f09c0946e131483701 ""
   "figs/resultados/corrosion//006_corrosion_ICD_por_zona_desglozadp_por_tipo_de_elemento_desde_mudline_medio_y_splash_zone.png" 1768344536 319856 9ad593997f6635b205206f5092f92b5e ""
-  "main.aux" 1768774038 8863 e07c29c08c3e61d99ae0b88cabf33f99 "pdflatex"
-  "main.nav" 1768774038 5004 c9ccf79c4a50bea1c421409f8056678b "pdflatex"
-  "main.out" 1768774038 2504 bfc923bd2c861b3d049443f13623061f "pdflatex"
-  "main.tex" 1768774034 20688 ef38ab4852e2096096d7278b284774f4 ""
+  "main.aux" 1768789595 8863 e07c29c08c3e61d99ae0b88cabf33f99 "pdflatex"
+  "main.nav" 1768789595 5004 c9ccf79c4a50bea1c421409f8056678b "pdflatex"
+  "main.out" 1768789595 2504 bfc923bd2c861b3d049443f13623061f "pdflatex"
+  "main.tex" 1768789579 21363 b17a53ceafd716642d66549cafdf1956 ""
   (generated)
   "main.aux"
   "main.log"

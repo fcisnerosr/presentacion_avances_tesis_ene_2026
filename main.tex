@@ -244,7 +244,7 @@
     \begin{figure}
         \centering
         % ATENCIÓN: Reemplaza 'nombre_de_tu_imagen_abolladura.png' con tu archivo real
-        \includegraphics[width=\textwidth, height=0.55\textheight, keepaspectratio]{004_seccion_transversal_de_elemento_tubular_parametros_abolladura_con_elementos_discretizados.png}
+        \includegraphics[width=\textwidth, height=0.45\textheight, keepaspectratio]{004_seccion_transversal_de_elemento_tubular_parametros_abolladura_con_elementos_discretizados.png}
         \caption{Representación esquemática del elemento tubular con daño por abolladura.}
     \end{figure}
 \end{frame}
@@ -292,8 +292,8 @@
     
     \begin{table}
         \centering
-        \large 
-        \caption{Tasas de Pérdida de Espesor por Zona (Datos Forenses HSE)}
+        \small % Ajustado para dejar espacio al pie de página
+        \caption{Tasas de Pérdida de Espesor por Zona}
         \begin{tabular}{lcc}
             \toprule
             \textbf{Zona Vertical} & \textbf{Tasa Real ($mm/a\tilde{n}o$)} & \textbf{Riesgo Estructural} \\
@@ -305,6 +305,11 @@
             \bottomrule
         \end{tabular}
     \end{table}
+
+    \vfill % Empuja el contenido siguiente al fondo de la diapositiva
+    \hrule \vspace{0.1cm} % Línea divisoria
+    \scriptsize
+    \textbf{Fuente:} Health and Safety Executive (HSE). \textit{Offshore installations: Guidance on design, construction and certification}. Reino Unido.
 \end{frame}
 
 \subsection{Abolladuras}
@@ -320,14 +325,14 @@
         \centering
         \footnotesize 
         \renewcommand{\arraystretch}{1.2}
-        \caption{Clasificación de Daños por Causa Raíz (Datos WOAD/HSE)}
+        \caption{Clasificación de Daños por Causa Raíz}
         \begin{tabular}{l>{\raggedright\arraybackslash}p{3.8cm}l}
             \toprule
             \textbf{Causa Raíz} & \textbf{Morfología del Daño} & \textbf{Ubicación Típica} \\
             \midrule
-            \rowcolor{red!10} \textbf{Colisión Buque} & \textbf{Abolladura Alargada + Arqueo Global (\textit{Bowing})} & \textbf{Splash Zone ($\pm 10$m)} \\
-            Objetos Caídos & Abolladura Aguda & Miembros Horizontales \\
-            Instalación & Abolladura Interna & Piernas / Elementos diagonales \\
+            \rowcolor{red!10} \textbf{Colisión Buque} & \textbf{Abolladura Alargada} & \textbf{Splash Zone ($\pm 10$m)} \\
+            Objetos Caídos & Abolladura Aguda & Miembros Horizontales* \\
+            Instalación & Abolladura Interna & Piernas / Elem. diagonales** \\
             \bottomrule
         \end{tabular}
     \end{table}
@@ -335,14 +340,18 @@
     \vfill
     \hrule \vspace{0.1cm}
     \scriptsize
+    \textit{* Ubicación de mayor incidencia estadística reportada.} \\
+    \textit{** Incidencia significativa, aunque menor respecto a los miembros horizontales.} \\
+    \vspace{0.1cm}
     \textbf{Fuentes de Datos:} \textbf{WOAD:} \textit{Worldwide Offshore Accident Databank}; \textbf{HSE:} \textit{Health and Safety Executive}.
 \end{frame}
 
 % --- ICD Y RESULTADOS ---
 \section[ICD]{Índice de Calidad de Detección (ICD)}
-\begin{frame}{Formulación Matemática del ICD}
-    \begin{block}{Ecuación General}
-        El ICD se define como el producto de tres factores normalizados:
+\begin{frame}{Aportación Novedosa: Formulación Matemática del ICD}
+    % Se cambió el título del bloque para resaltar la novedad
+    \begin{block}{Contribución Metodológica: Ecuación General}
+        Se propone una \textbf{métrica inédita} que integra tres factores normalizados para evaluar la calidad de la solución:
         \begin{equation}
             \text{ICD} = D \times C_{\text{norm}}(\delta) \times P_{\text{FP}}(N_{\text{FP}})
         \end{equation}
@@ -440,10 +449,13 @@
 \begin{frame}{Resultados: Detección de Corrosión (2/2)}
     \begin{figure}
         \centering
-        \includegraphics[width=\textwidth, height=0.78\textheight, keepaspectratio]{006_corrosion_ICD_por_zona_desglozadp_por_tipo_de_elemento_desde_mudline_medio_y_splash_zone.png}
+        \includegraphics[width=\textwidth, height=0.70\textheight, keepaspectratio]{006_corrosion_ICD_por_zona_desglozadp_por_tipo_de_elemento_desde_mudline_medio_y_splash_zone.png}
         \caption{Desglose por Zona}
     \end{figure}
 \end{frame}
+
+% --- SECCIÓN DE VALIDACIÓN Y ROBUSTEZ (NUEVO) ---
+
 
 \section[Cierre]{Publicación y Conclusiones}
 \begin{frame}{Estatus de Publicación JCR (Journal Citation Reports)}
