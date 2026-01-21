@@ -207,7 +207,7 @@
     \textbf{Consideraciones:} Inclusión de masa añadida hidrodinámica y crecimiento marino (biofouling).
     \begin{figure}
         \centering
-        \includegraphics[width=0.85\textwidth, height=0.52\textheight, keepaspectratio]{001_modelo_plataforma_con_elemento_tubular_masa_adherida_y_masa_atrapada.png}
+        \includegraphics[width=0.85\textwidth, height=0.42\textheight, keepaspectratio]{001_modelo_plataforma_con_elemento_tubular_masa_adherida_y_masa_atrapada.png}
         \caption{Detalle de Masa Hidrodinámica (Adherida y Atrapada).}
     \end{figure}
 \end{frame}
@@ -215,7 +215,7 @@
 \begin{frame}{Efectos Inerciales y Ambientales (2/2)}
     \begin{figure}
         \centering
-        \includegraphics[width=\textwidth, height=0.65\textheight, keepaspectratio]{001_modelo_plataforma_con_elemento_tubular_masa_de_crecimiento_marino.png}
+        \includegraphics[width=\textwidth, height=0.45\textheight, keepaspectratio]{001_modelo_plataforma_con_elemento_tubular_masa_de_crecimiento_marino.png}
         \caption{Modelado del Crecimiento Marino (Biofouling) y coeficientes rugosos.}
     \end{figure}
 
@@ -232,7 +232,7 @@
 
     \begin{figure}
         \centering
-        \includegraphics[width=\textwidth, height=0.6\textheight, keepaspectratio]{004_modelo_elemento_tubular_con_caracterizacion_corrosion_longitudinal_donde_muestran_tramos_con_reduccion_espesor.png}
+        \includegraphics[width=\textwidth, height=0.5\textheight, keepaspectratio]{004_modelo_elemento_tubular_con_caracterizacion_corrosion_longitudinal_donde_muestran_tramos_con_reduccion_espesor.png}
         \caption{Perfil de reducción de espesor ($t_{loss}$) a lo largo del elemento tubular.}
     \end{figure}
 \end{frame}
@@ -244,7 +244,7 @@
     \begin{figure}
         \centering
         % ATENCIÓN: Reemplaza 'nombre_de_tu_imagen_abolladura.png' con tu archivo real
-        \includegraphics[width=\textwidth, height=0.45\textheight, keepaspectratio]{004_seccion_transversal_de_elemento_tubular_parametros_abolladura_con_elementos_discretizados.png}
+        \includegraphics[width=\textwidth, height=0.35\textheight, keepaspectratio]{004_seccion_transversal_de_elemento_tubular_parametros_abolladura_con_elementos_discretizados.png}
         \caption{Representación esquemática del elemento tubular con daño por abolladura.}
     \end{figure}
 \end{frame}
@@ -257,7 +257,7 @@
     \begin{figure}
         \centering
         % Ajustamos la imagen al ancho disponible manteniendo la proporción
-        \includegraphics[width=\textwidth, height=0.6\textheight, keepaspectratio]{004_modelo_elemento_tubular_seccion_longitudinal_parametros_abolladura_con_funciones_de_interpolacion.png}
+        \includegraphics[width=\textwidth, height=0.5\textheight, keepaspectratio]{004_modelo_elemento_tubular_seccion_longitudinal_parametros_abolladura_con_funciones_de_interpolacion.png}
         \caption{Interpolación de la reducción de inercia mediante polinomios de 4º grado.}
     \end{figure}
 \end{frame}
@@ -458,42 +458,123 @@
 
 
 \section[Cierre]{Publicación y Conclusiones}
-\begin{frame}{Estatus de Publicación JCR (Journal Citation Reports)}
-    \small 
-    \begin{itemize}
-        \setlength\itemsep{0.4em} 
 
-        \item \textbf{Título Tentativo:} \\
-        \textit{"Proposal of a Detection Quality Index (DQI) for Damage Identification in Jacket Platforms Using Genetic Algorithms."}
+% Slide 1: Validación Metodológica
+\begin{frame}{Conclusiones Preliminares (1/4): Enfoque Metodológico}
+    \small
+    \begin{block}{Eficacia de la Optimización Inversa}
+        La investigación valida al ICD como una métrica robusta para el monitoreo de salud estructural (SHM). 
+        \vspace{0.2cm}
+        \begin{itemize}
+            \item \textbf{Independencia del Modelo Base:} A diferencia de la actualización de modelo tradicional (\textit{Model Updating}), esta estrategia basada en optimización estocástica (AG) no requiere un modelo de elementos finitos perfectamente calibrado desde el origen.
+            \item \textbf{Eficiencia:} Al centrarse en cambios relativos de patrones modales, reduce significativamente la carga computacional asociada a la identificación de parámetros físicos exactos.
+        \end{itemize}
+    \end{block}
+\end{frame}
 
-        \item \textbf{Revista Objetivo:} \\
-        \textit{Journal of Civil Structural Health Monitoring} (Q1 - JCR).
+% Slide 2: Robustez y Hallazgos
+\begin{frame}{Conclusiones Preliminares (2/4): Robustez y Hallazgos}
+    \small
+    \begin{block}{Penalización de Falsos Positivos}
+        La formulación matemática del ICD penaliza severamente las soluciones que generan residuos distribuidos, favoreciendo la localización precisa y evitando \textbf{falsas alarmas} costosas.
+    \end{block}
 
-        \item \textbf{Estatus Actual:}
+    \vspace{0.2cm}
+
+    \begin{block}{Hallazgo: Sensibilidad Diferencial}
+        Los resultados revelan una jerarquía clara en la detectabilidad del daño:
+        \begin{itemize}
+            \item \textbf{Diagonales ("Fusibles"):} Elementos de alta sensibilidad. El sistema detecta reducciones de rigidez a partir del \textbf{30\% de severidad}.
+            \item \textbf{Piernas Principales:} Alta redundancia estructural. Requieren daños severos ($>50\%$) para ser identificados mediante vibraciones globales.
+        \end{itemize}
+    \end{block}
+\end{frame}
+
+% Slide 3: Implicaciones
+\begin{frame}{Conclusiones Preliminares (3/4): Implicación Operativa}
+    \small
+    \begin{alertblock}{Propuesta de Estrategia Híbrida}
+        La disparidad de sensibilidad detectada sugiere un cambio de paradigma en la gestión de integridad:
+        \vspace{0.2cm}
+        \begin{itemize}
+            \item \textbf{Monitoreo Remoto (Vibraciones):} Ideal para la vigilancia continua de las diagonales, donde el riesgo de impacto de buques es alto.
+            \item \textbf{Inspección Visual (ROV/Buzos):} Debe enfocarse prioritariamente en \textbf{vigas y piernas principales}, ya que el monitoreo global es ciego a daños incipientes en estos elementos masivos.
+        \end{itemize}
+    \end{alertblock}
+\end{frame}
+
+% Slide 4: Validación de Campo
+\begin{frame}{Conclusiones Preliminares (4/4): Validación Forense}
+    \small
+    El desempeño del algoritmo coincide con las zonas de mayor riesgo estadístico reportadas en la industria (HSE/WOAD), validando su utilidad práctica:
+
+    \vspace{0.3cm}
+
+    \begin{columns}[t]
+        \column{0.48\textwidth}
+        \textbf{1. Coherencia en Corrosión}
         \begin{itemize} \footnotesize
-            \item Resultados del ICD consolidados.
-            \item Artículo en proceso de redacción y formato.
-            \item Requisito obligatorio para la graduación.
+            \item \textbf{Realidad:} La \textit{Splash Zone} sufre la corrosión más agresiva (0.8--1.2 mm/año) según HSE.
+            \item \textbf{AG:} El ICD mostró su \textbf{máxima sensibilidad} precisamente en esta zona, garantizando detección temprana donde el riesgo crítico es mayor.
         \end{itemize}
 
-        \item \textbf{Antecedentes y Perspectiva:} \\
-        \footnotesize 
-        El manuscrito inicial fue rechazado en la revista \textit{Ocean Engineering}. Sin embargo, dicha versión carecía de la validación robusta actual. La integración del nuevo \textbf{Índice de Calidad de Detección (ICD)} subsana las limitaciones previas y fortalece la contribución científica, asegurando una propuesta sólida para este nuevo envío.
+        \column{0.48\textwidth}
+        \textbf{2. Coherencia en Abolladuras}
+        \begin{itemize} \footnotesize
+            \item \textbf{Realidad:} Las diagonales en la zona de marea son estadísticamente vulnerables a colisiones de buques (WOAD).
+            \item \textbf{AG:} Al identificar a las diagonales como fusibles altamente detectables, el sistema cubre el riesgo de impacto accidental.
+        \end{itemize}
+    \end{columns}
+
+    \vspace{0.4cm} 
+    \hrule \vspace{0.1cm}
+    \scriptsize \centering
+    \textit{Conclusión: El algoritmo prioriza correctamente las amenazas físicas reales.}
+\end{frame}
+
+% Slide 1: Estatus y Prórroga
+\begin{frame}{Estatus de Publicación y Solicitud de Prórroga}
+    \small
+    \begin{itemize}
+        \item \textbf{Estatus de Publicación (7º Semestre):}
+        \begin{itemize}
+            \item Se realizó el envío del manuscrito a la revista \textit{Ocean Engineering} a mediados del semestre.
+            \item \textbf{Resultado:} El artículo fue rechazado.
+            \item \textbf{Acción Inmediata:} Se realizó un análisis detallado de los comentarios de los revisores para identificar las áreas de mejora críticas.
+            \item \textbf{Nueva Opción:} Se ha seleccionado a la revista \textit{Applied Ocean Research} como el nuevo objetivo de publicación.
+        \end{itemize}
+        
+        \vspace{0.4cm}
+
+        \item \textbf{Necesidad de Prórroga:}
+        \begin{alertblock}{Ajuste de Cronograma de Graduación}
+            Debido a los tiempos de gestión editorial para el nuevo envío a \textit{Applied Ocean Research} y la escritura final, se solicitará una extensión de tiempo.
+            \vspace{0.1cm}
+            \begin{itemize}
+                \item \textbf{Ventana Estimada de Defensa:} Octubre -- Diciembre 2026.
+            \end{itemize}
+        \end{alertblock}
     \end{itemize}
 \end{frame}
 
-\subsection{Comentarios Finales}
-\begin{frame}{Comentarios Finales y Siguientes Pasos}
-    \begin{enumerate}
-        \item \textbf{Validación:} El modelo simplificado de daño (abolladura/corrosión) demuestra ser computacionalmente eficiente y representativo.
-        \item \textbf{Ruta Crítica (8º Semestre):}
-        \begin{itemize}
-            \item Envío y revisión del artículo JCR.
-            \item Escritura final de la tesis.
-            \item Defensa de grado.
-            \item Profundizar en el estudio, generación y análisis de resultados para daños por grietas en la base (fatiga) y deflexiones excesivas, aplicando la misma metodología.
-        \end{itemize}
-    \end{enumerate}
+% Slide 2: Estrategia Técnica
+\begin{frame}{Redefinición de Alcances y Estrategia Técnica}
+    \small
+    \begin{block}{Recorte de Alcances}
+        Para viabilizar la nueva fecha de defensa y garantizar la calidad de la publicación, se proponen transferir los análisis de \textbf{grietas por fatiga} y \textbf{deflexiones excesivas} a \textit{Trabajo Futuro}. El 8º Semestre se dedicará 100\% a Escritura y Validación.
+    \end{block}
+
+    \vspace{0.2cm}
+
+    \begin{block}{Fortalecimiento del ICD (Estrategia de Aceptación)}
+        En respuesta al rechazo previo, se implementarán 5 mejoras para blindar el artículo:
+        \begin{enumerate} \footnotesize
+            \item \textbf{Estabilidad del AG:} Reporte del vector $\alpha$ óptimo y su dispersión.
+            \item \textbf{Benchmark:} Comparativa (Mejor DI individual vs. ICD Fusionado).
+            \item \textbf{Robustez:} Simulación de ruido experimental.
+            \item \textbf{Métricas:} Análisis de Verdaderos Positivos / Falsos Positivos.
+        \end{enumerate}
+    \end{block}
 \end{frame}
 
 \end{document}

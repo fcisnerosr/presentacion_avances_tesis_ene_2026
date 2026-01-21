@@ -15,4 +15,3 @@
 \beamer@subsectionintoc {7}{1}{Abolladura}{19}{0}{7}
 \beamer@subsectionintoc {7}{2}{Corrosión}{21}{0}{7}
 \beamer@sectionintoc {8}{Publicación y Conclusiones}{23}{0}{8}
-\beamer@subsectionintoc {8}{1}{Comentarios Finales}{24}{0}{8}
