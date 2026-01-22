@@ -350,7 +350,7 @@
 \section[ICD]{Índice de Calidad de Detección (ICD)}
 \begin{frame}{Aportación Novedosa: Formulación Matemática del ICD}
     % Se cambió el título del bloque para resaltar la novedad
-    \begin{block}{Contribución Metodológica: Ecuación General}
+    \begin{block}{Contribución Metodológica: \textbf{Indice de Calidad de Detección}}
         Se propone una \textbf{métrica inédita} que integra tres factores normalizados para evaluar la calidad de la solución:
         \begin{equation}
             \text{ICD} = D \times C_{\text{norm}}(\delta) \times P_{\text{FP}}(N_{\text{FP}})
@@ -395,7 +395,6 @@
 
 % Caso de Estudio
 \section[Caso]{Caso de Estudio}
-\subsection{Corrosión}
 \begin{frame}{Caso de Estudio: Plataforma Tipo Jacket}
     \begin{itemize}
         \item Plataforma marina fija discretizada mediante elementos viga.
@@ -415,6 +414,40 @@
             \includegraphics[width=\linewidth, height=0.7\textheight, keepaspectratio]{007_modeo_vista_3d_de_plataforma_tipo_jacket_de_caso_de_estudio.png}
             \caption{Vista 3D}
         \end{figure}
+    \end{columns}
+\end{frame}
+
+\begin{frame}{Caso de Estudio: Propiedades Geométricas}
+    \begin{columns}[c]
+        \begin{column}{0.5\textwidth}
+            \centering
+            \textbf{Identificación de secciones:}
+            \vspace{0.5cm}
+            
+            \begin{table}
+                \centering
+                \renewcommand{\arraystretch}{1.5}
+                \begin{tabular}{c c c}
+                    \toprule
+                    \textbf{Diámetro} & \textbf{Espesor} & \textbf{Identificador} \\
+                    \textbf{Ext. (m)} & \textbf{(mm)} & \textbf{Color} \\
+                    \midrule
+                    2.18 & 38.1 & \cellcolor{blue!80} \\
+                    1.98 & 38.1 & \cellcolor{violet!80} \\
+                    1.57 & 25.4 & \cellcolor{green!80!black} \\
+                    1.57 & 25.4 & \cellcolor{red!90} \\
+                    \bottomrule
+                \end{tabular}
+            \end{table}
+        \end{column}
+        
+        \begin{column}{0.5\textwidth}
+            \begin{figure}
+                \centering
+                \includegraphics[width=\linewidth, height=0.8\textheight, keepaspectratio]{./figs/016_modelo_colores.png}
+                \caption{Discretización por tipo de sección transversal.}
+            \end{figure}
+        \end{column}
     \end{columns}
 \end{frame}
 
@@ -463,6 +496,35 @@
         \text{Niveles de daño} = \{5\%, 10\%, 15\%, \dots, 50\%\} \\
         \Rightarrow 10 \, \text{niveles en incrementos de } 5\%
     \end{gather*}
+\end{frame}
+
+\begin{frame}[t]{Resultados Anteriores}
+\subsection{Corrosión}
+    \vspace*{-1.5cm}
+    \begin{columns}[t]
+        \begin{column}{0.7\textwidth}
+            \begin{figure}
+                \centering
+                \includegraphics[width=\linewidth, height=0.75\textheight, keepaspectratio]{./figs/017_resultados_anteriores.png}
+                \caption{Visualización de resultados anteriores de corrosión.}
+            \end{figure}
+        \end{column}
+        \begin{column}{0.3\textwidth}
+            \begin{figure}
+                \centering
+                \includegraphics[width=\linewidth, keepaspectratio]{"./figs/018_modelo_de_resultados anteriores.png"}
+                \caption{\footnotesize Modelo de referencia}
+            \end{figure}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+\begin{frame}{Definición de Niveles de Profundidad}
+    \begin{figure}
+        \centering
+        \includegraphics[width=\linewidth, height=0.8\textheight, keepaspectratio]{./figs/019_niveles_mudline.png}
+        \caption{Identificación de zonas: Mudline, Sub 1, Sub 2 y Sub 3.}
+    \end{figure}
 \end{frame}
 
 \begin{frame}{Resultados: Detección de Abolladura (1/2)}

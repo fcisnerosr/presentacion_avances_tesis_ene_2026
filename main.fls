@@ -1434,6 +1434,7 @@ INPUT ./figs//004_modelo_elemento_tubular_seccion_longitudinal_parametros_abolla
 INPUT ./figs//004_modelo_elemento_tubular_seccion_longitudinal_parametros_abolladura_con_funciones_de_interpolacion.png
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcss1000.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcss0600.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
 INPUT ./figs//007_modelo_vista_fronta_de_plataforma_tipo_jacket_de_caso_de_estudio.png
 INPUT ./figs//007_modelo_vista_fronta_de_plataforma_tipo_jacket_de_caso_de_estudio.png
 INPUT ./figs//007_modelo_vista_fronta_de_plataforma_tipo_jacket_de_caso_de_estudio.png
@@ -1444,6 +1445,26 @@ INPUT ./figs//007_modeo_vista_3d_de_plataforma_tipo_jacket_de_caso_de_estudio.pn
 INPUT ./figs//007_modeo_vista_3d_de_plataforma_tipo_jacket_de_caso_de_estudio.png
 INPUT ./figs//007_modeo_vista_3d_de_plataforma_tipo_jacket_de_caso_de_estudio.png
 INPUT ./figs//007_modeo_vista_3d_de_plataforma_tipo_jacket_de_caso_de_estudio.png
+INPUT ./figs/016_modelo_colores.png
+INPUT ./figs/016_modelo_colores.png
+INPUT ./figs/016_modelo_colores.png
+INPUT ./figs/016_modelo_colores.png
+INPUT ./figs/016_modelo_colores.png
+INPUT ./figs/017_resultados_anteriores.png
+INPUT ./figs/017_resultados_anteriores.png
+INPUT ./figs/017_resultados_anteriores.png
+INPUT ./figs/017_resultados_anteriores.png
+INPUT ./figs/017_resultados_anteriores.png
+INPUT ./figs/018_modelo_de_resultados anteriores.png
+INPUT ./figs/018_modelo_de_resultados anteriores.png
+INPUT ./figs/018_modelo_de_resultados anteriores.png
+INPUT ./figs/018_modelo_de_resultados anteriores.png
+INPUT ./figs/018_modelo_de_resultados anteriores.png
+INPUT ./figs/019_niveles_mudline.png
+INPUT ./figs/019_niveles_mudline.png
+INPUT ./figs/019_niveles_mudline.png
+INPUT ./figs/019_niveles_mudline.png
+INPUT ./figs/019_niveles_mudline.png
 INPUT ./figs/resultados/abolladura//005_abolladura_comparativa_global_de_ICD_vs_daño_por_zona_mudline_medio_y_splash_zone.png
 INPUT ./figs/resultados/abolladura//005_abolladura_comparativa_global_de_ICD_vs_daño_por_zona_mudline_medio_y_splash_zone.png
 INPUT ./figs/resultados/abolladura//005_abolladura_comparativa_global_de_ICD_vs_daño_por_zona_mudline_medio_y_splash_zone.png

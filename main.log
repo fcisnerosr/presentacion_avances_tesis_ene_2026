@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.7.18)  21 JAN 2026 19:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.7.18)  21 JAN 2026 20:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -931,7 +931,7 @@ Dictionary: translator-theorem-dictionary, Language: English
 LaTeX Info: Redefining \. on input line 28.
 LaTeX Info: Redefining \% on input line 28.
  (./main.nav)
-<./figs//000_logo.png, id=120, 532.23843pt x 200.24812pt>
+<./figs//000_logo.png, id=122, 532.23843pt x 200.24812pt>
 File: ./figs//000_logo.png Graphic file (type png)
 <use ./figs//000_logo.png>
 Package pdftex.def Info: ./figs//000_logo.png  used on input line 67.
@@ -953,7 +953,7 @@ File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 
 ]
 <./figs//005_metogologia_propuesta_para_identificar_daños_en_plataformas_reale
-s.jpg, id=263, 1560.83125pt x 779.91376pt>
+s.jpg, id=269, 1560.83125pt x 779.91376pt>
 File: ./figs//005_metogologia_propuesta_para_identificar_daños_en_plataformas_
 reales.jpg Graphic file (type jpg)
 <use ./figs//005_metogologia_propuesta_para_identificar_daños_en_plataformas_r
@@ -970,7 +970,7 @@ Overfull \vbox (12.69435pt too high) detected at line 97
  <./figs//005_metogologia_propuesta_para_identificar_daños_en_plataformas_real
 es.jpg>]
 <./figs//006_metodología_del_AG_para_localizar_daños_a_nivel_computacional.jp
-g, id=328, 963.6pt x 429.85594pt>
+g, id=337, 963.6pt x 429.85594pt>
 File: ./figs//006_metodología_del_AG_para_localizar_daños_a_nivel_computacion
 al.jpg Graphic file (type jpg)
 <use ./figs//006_metodología_del_AG_para_localizar_daños_a_nivel_computaciona
@@ -983,7 +983,7 @@ a_nivel_computacional.jpg  used on input line 107.
  <./figs//006_metodología_del_AG_para_localizar_daños_a_nivel_computacional.j
 pg>]
 <./figs//015_diagrama_como_funciona_el_AG_para_la_sumas_funcion_P_y_como_se_rel
-aciona_con_operadores_geneticos_del_AG.jpg, id=394, 1896.08376pt x 829.0975pt>
+aciona_con_operadores_geneticos_del_AG.jpg, id=404, 1896.08376pt x 829.0975pt>
 File: ./figs//015_diagrama_como_funciona_el_AG_para_la_sumas_funcion_P_y_como_s
 e_relaciona_con_operadores_geneticos_del_AG.jpg Graphic file (type jpg)
 <use ./figs//015_diagrama_como_funciona_el_AG_para_la_sumas_funcion_P_y_como_se
@@ -1047,7 +1047,7 @@ LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <14.4> not available
 
 ]
 <./figs//001_modelo_plataforma_con_elemento_tubular_masa_adherida_y_masa_atrapa
-da.png, id=701, 429.85594pt x 208.52907pt>
+da.png, id=719, 429.85594pt x 208.52907pt>
 File: ./figs//001_modelo_plataforma_con_elemento_tubular_masa_adherida_y_masa_a
 trapada.png Graphic file (type png)
 <use ./figs//001_modelo_plataforma_con_elemento_tubular_masa_adherida_y_masa_at
@@ -1060,7 +1060,7 @@ a_adherida_y_masa_atrapada.png  used on input line 213.
  <./figs//001_modelo_plataforma_con_elemento_tubular_masa_adherida_y_masa_atrap
 ada.png>]
 <./figs//001_modelo_plataforma_con_elemento_tubular_masa_de_crecimiento_marino.
-png, id=768, 490.83376pt x 249.93375pt>
+png, id=788, 490.83376pt x 249.93375pt>
 File: ./figs//001_modelo_plataforma_con_elemento_tubular_masa_de_crecimiento_ma
 rino.png Graphic file (type png)
 <use ./figs//001_modelo_plataforma_con_elemento_tubular_masa_de_crecimiento_mar
@@ -1073,7 +1073,7 @@ a_de_crecimiento_marino.png  used on input line 226.
  <./figs//001_modelo_plataforma_con_elemento_tubular_masa_de_crecimiento_marino
 .png>]
 <./figs//004_modelo_elemento_tubular_con_caracterizacion_corrosion_longitudinal
-_donde_muestran_tramos_con_reduccion_espesor.png, id=833, 486.31688pt x 197.989
+_donde_muestran_tramos_con_reduccion_espesor.png, id=855, 486.31688pt x 197.989
 69pt>
 File: ./figs//004_modelo_elemento_tubular_con_caracterizacion_corrosion_longitu
 dinal_donde_muestran_tramos_con_reduccion_espesor.png Graphic file (type png)
@@ -1094,7 +1094,7 @@ LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <8> not available
 (Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 250.
 
 <./figs//004_seccion_transversal_de_elemento_tubular_parametros_abolladura_con_
-elementos_discretizados.png, id=900, 232.61906pt x 148.30406pt>
+elementos_discretizados.png, id=924, 232.61906pt x 148.30406pt>
 File: ./figs//004_seccion_transversal_de_elemento_tubular_parametros_abolladura
 _con_elementos_discretizados.png Graphic file (type png)
 <use ./figs//004_seccion_transversal_de_elemento_tubular_parametros_abolladura_
@@ -1107,7 +1107,7 @@ rametros_abolladura_con_elementos_discretizados.png  used on input line 250.
  <./figs//004_seccion_transversal_de_elemento_tubular_parametros_abolladura_con
 _elementos_discretizados.png>]
 <./figs//004_modelo_elemento_tubular_seccion_longitudinal_parametros_abolladura
-_con_funciones_de_interpolacion.png, id=965, 380.01974pt x 85.5195pt>
+_con_funciones_de_interpolacion.png, id=992, 380.01974pt x 85.5195pt>
 File: ./figs//004_modelo_elemento_tubular_seccion_longitudinal_parametros_aboll
 adura_con_funciones_de_interpolacion.png Graphic file (type png)
 <use ./figs//004_modelo_elemento_tubular_seccion_longitudinal_parametros_abolla
@@ -1129,56 +1129,107 @@ a_con_funciones_de_interpolacion.png>] [14
 
 ]
 <./figs//007_modelo_vista_fronta_de_plataforma_tipo_jacket_de_caso_de_estudio.p
-ng, id=1304, 423.83344pt x 575.90157pt>
+ng, id=1340, 423.83344pt x 575.90157pt>
 File: ./figs//007_modelo_vista_fronta_de_plataforma_tipo_jacket_de_caso_de_estu
 dio.png Graphic file (type png)
 <use ./figs//007_modelo_vista_fronta_de_plataforma_tipo_jacket_de_caso_de_estud
 io.png>
 Package pdftex.def Info: ./figs//007_modelo_vista_fronta_de_plataforma_tipo_jac
-ket_de_caso_de_estudio.png  used on input line 419.
+ket_de_caso_de_estudio.png  used on input line 418.
 (pdftex.def)             Requested size: 117.09456pt x 159.10718pt.
 <./figs//007_modeo_vista_3d_de_plataforma_tipo_jacket_de_caso_de_estudio.png, i
-d=1305, 302.63063pt x 650.43pt>
+d=1341, 302.63063pt x 650.43pt>
 File: ./figs//007_modeo_vista_3d_de_plataforma_tipo_jacket_de_caso_de_estudio.p
 ng Graphic file (type png)
 <use ./figs//007_modeo_vista_3d_de_plataforma_tipo_jacket_de_caso_de_estudio.pn
 g>
 Package pdftex.def Info: ./figs//007_modeo_vista_3d_de_plataforma_tipo_jacket_d
-e_caso_de_estudio.png  used on input line 419.
+e_caso_de_estudio.png  used on input line 418.
 (pdftex.def)             Requested size: 74.02739pt x 159.10365pt.
 
-Overfull \vbox (28.03247pt too high) detected at line 419
+Overfull \vbox (28.03247pt too high) detected at line 418
  []
 
 [18
 
  <./figs//007_modelo_vista_fronta_de_plataforma_tipo_jacket_de_caso_de_estudio.
 png> <./figs//007_modeo_vista_3d_de_plataforma_tipo_jacket_de_caso_de_estudio.p
-ng>] [19
+ng>]
+Overfull \hbox (12.30078pt too wide) in paragraph at lines 452--452
+ [] 
+ []
 
-] [20
+<./figs/016_modelo_colores.png, id=1409, 183.084pt x 406.6392pt>
+File: ./figs/016_modelo_colores.png Graphic file (type png)
+<use ./figs/016_modelo_colores.png>
+Package pdftex.def Info: ./figs/016_modelo_colores.png  used on input line 452.
+
+(pdftex.def)             Requested size: 81.87021pt x 181.83806pt.
+
+Overfull \vbox (33.95383pt too high) detected at line 452
+ []
+
+[19
+
+ <./figs/016_modelo_colores.png>] [20
+
+] [21
 
 ]
+<./figs/017_resultados_anteriores.png, id=1611, 570.933pt x 354.123pt>
+File: ./figs/017_resultados_anteriores.png Graphic file (type png)
+<use ./figs/017_resultados_anteriores.png>
+Package pdftex.def Info: ./figs/017_resultados_anteriores.png  used on input li
+ne 520.
+(pdftex.def)             Requested size: 239.60727pt x 148.61716pt.
+<./figs/018_modelo_de_resultados anteriores.png, id=1612, 247.67531pt x 542.025
+pt>
+File: ./figs/018_modelo_de_resultados anteriores.png Graphic file (type png)
+<use ./figs/018_modelo_de_resultados anteriores.png>
+Package pdftex.def Info: ./figs/018_modelo_de_resultados anteriores.png  used o
+n input line 520.
+(pdftex.def)             Requested size: 102.68962pt x 224.72942pt.
+
+Overfull \vbox (50.45653pt too high) detected at line 520
+ []
+
+[22
+
+ <./figs/017_resultados_anteriores.png> <./figs/018_modelo_de_resultados anteri
+ores.png>]
+<./figs/019_niveles_mudline.png, id=1681, 397.485pt x 599.99156pt>
+File: ./figs/019_niveles_mudline.png Graphic file (type png)
+<use ./figs/019_niveles_mudline.png>
+Package pdftex.def Info: ./figs/019_niveles_mudline.png  used on input line 528
+.
+(pdftex.def)             Requested size: 120.45944pt x 181.82988pt.
+
+Overfull \vbox (23.4901pt too high) detected at line 528
+ []
+
+[23
+
+ <./figs/019_niveles_mudline.png>]
 <./figs/resultados/abolladura//005_abolladura_comparativa_global_de_ICD_vs_dañ
-o_por_zona_mudline_medio_y_splash_zone.png, id=1502, 1003.8303pt x 570.933pt>
+o_por_zona_mudline_medio_y_splash_zone.png, id=1749, 1003.8303pt x 570.933pt>
 File: ./figs/resultados/abolladura//005_abolladura_comparativa_global_de_ICD_vs
 _daño_por_zona_mudline_medio_y_splash_zone.png Graphic file (type png)
 <use ./figs/resultados/abolladura//005_abolladura_comparativa_global_de_ICD_vs_
 daño_por_zona_mudline_medio_y_splash_zone.png>
 Package pdftex.def Info: ./figs/resultados/abolladura//005_abolladura_comparati
 va_global_de_ICD_vs_daño_por_zona_mudline_medio_y_splash_zone.png  used on inp
-ut line 474.
+ut line 536.
 (pdftex.def)             Requested size: 307.72249pt x 175.01854pt.
 
-Overfull \vbox (16.67876pt too high) detected at line 474
+Overfull \vbox (16.67876pt too high) detected at line 536
  []
 
-[21
+[24
 
  <./figs/resultados/abolladura//005_abolladura_comparativa_global_de_ICD_vs_da�
 �o_por_zona_mudline_medio_y_splash_zone.png>]
 <./figs/resultados/abolladura//006_abolladura_ICD_por_zona_desglozadp_por_tipo_
-de_elemento_desde_mudline_medio_y_splash_zone.png, id=1568, 1293.633pt x 865.79
+de_elemento_desde_mudline_medio_y_splash_zone.png, id=1818, 1293.633pt x 865.79
 46pt>
 File: ./figs/resultados/abolladura//006_abolladura_ICD_por_zona_desglozadp_por_
 tipo_de_elemento_desde_mudline_medio_y_splash_zone.png Graphic file (type png)
@@ -1186,36 +1237,36 @@ tipo_de_elemento_desde_mudline_medio_y_splash_zone.png Graphic file (type png)
 ipo_de_elemento_desde_mudline_medio_y_splash_zone.png>
 Package pdftex.def Info: ./figs/resultados/abolladura//006_abolladura_ICD_por_z
 ona_desglozadp_por_tipo_de_elemento_desde_mudline_medio_y_splash_zone.png  used
- on input line 482.
+ on input line 544.
 (pdftex.def)             Requested size: 261.50525pt x 175.01859pt.
 
-Overfull \vbox (16.6788pt too high) detected at line 482
+Overfull \vbox (16.6788pt too high) detected at line 544
  []
 
-[22
+[25
 
  <./figs/resultados/abolladura//006_abolladura_ICD_por_zona_desglozadp_por_tipo
 _de_elemento_desde_mudline_medio_y_splash_zone.png>]
 <./figs/resultados/corrosion//005_corrosion_comparativa_global_de_ICD_vs_daño_
-por_zona_mudline_medio_y_splash_zone.png, id=1635, 1004.553pt x 570.933pt>
+por_zona_mudline_medio_y_splash_zone.png, id=1887, 1004.553pt x 570.933pt>
 File: ./figs/resultados/corrosion//005_corrosion_comparativa_global_de_ICD_vs_d
 año_por_zona_mudline_medio_y_splash_zone.png Graphic file (type png)
 <use ./figs/resultados/corrosion//005_corrosion_comparativa_global_de_ICD_vs_da
 ño_por_zona_mudline_medio_y_splash_zone.png>
 Package pdftex.def Info: ./figs/resultados/corrosion//005_corrosion_comparativa
 _global_de_ICD_vs_daño_por_zona_mudline_medio_y_splash_zone.png  used on input
- line 491.
+ line 553.
 (pdftex.def)             Requested size: 307.94403pt x 175.01854pt.
 
-Overfull \vbox (16.67876pt too high) detected at line 491
+Overfull \vbox (16.67876pt too high) detected at line 553
  []
 
-[23
+[26
 
  <./figs/resultados/corrosion//005_corrosion_comparativa_global_de_ICD_vs_daño
 _por_zona_mudline_medio_y_splash_zone.png>]
 <./figs/resultados/corrosion//006_corrosion_ICD_por_zona_desglozadp_por_tipo_de
-_elemento_desde_mudline_medio_y_splash_zone.png, id=1702, 1293.633pt x 865.7946
+_elemento_desde_mudline_medio_y_splash_zone.png, id=1956, 1293.633pt x 865.7946
 pt>
 File: ./figs/resultados/corrosion//006_corrosion_ICD_por_zona_desglozadp_por_ti
 po_de_elemento_desde_mudline_medio_y_splash_zone.png Graphic file (type png)
@@ -1223,30 +1274,30 @@ po_de_elemento_desde_mudline_medio_y_splash_zone.png Graphic file (type png)
 o_de_elemento_desde_mudline_medio_y_splash_zone.png>
 Package pdftex.def Info: ./figs/resultados/corrosion//006_corrosion_ICD_por_zon
 a_desglozadp_por_tipo_de_elemento_desde_mudline_medio_y_splash_zone.png  used o
-n input line 499.
+n input line 561.
 (pdftex.def)             Requested size: 237.71948pt x 159.09941pt.
 
-Overfull \vbox (0.75963pt too high) detected at line 499
+Overfull \vbox (0.75963pt too high) detected at line 561
  []
 
-[24
+[27
 
  <./figs/resultados/corrosion//006_corrosion_ICD_por_zona_desglozadp_por_tipo_d
-e_elemento_desde_mudline_medio_y_splash_zone.png>] [25
+e_elemento_desde_mudline_medio_y_splash_zone.png>] [28
 
-] [26
-
-] [27
-
-] [28
-
-]
-Overfull \vbox (8.92764pt too high) detected at line 602
- []
-
-[29
+] [29
 
 ] [30
+
+] [31
+
+]
+Overfull \vbox (8.92764pt too high) detected at line 664
+ []
+
+[32
+
+] [33
 
 ]
 \tf@nav=\write6
@@ -1266,14 +1317,14 @@ LaTeX Info: Redefining \% on input line 25.
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 2FFE7CEBE742F01E815AA2BB7FC2AD5C;2454.
+(rerunfilecheck)             Checksum: 920A36EE0576652ABDCBC342DBB60CBF;2454.
  ) 
 Here is how much of TeX's memory you used:
- 23899 strings out of 478287
- 475222 string characters out of 5849289
- 767194 words of memory out of 5000000
- 41488 multiletter control sequences out of 15000+600000
- 497175 words of font info for 117 fonts, out of 8000000 for 9000
+ 23949 strings out of 478287
+ 476619 string characters out of 5849289
+ 770337 words of memory out of 5000000
+ 41527 multiletter control sequences out of 15000+600000
+ 497469 words of font info for 118 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,19n,122p,384b,1018s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
@@ -1300,10 +1351,10 @@ amsfonts/cm/cmsy9.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss0600.pf
 b></usr/share/texmf/fonts/type1/public/cm-super/sfss1000.pfb></usr/share/texmf/
 fonts/type1/public/cm-super/sfss1095.pfb></usr/share/texmf/fonts/type1/public/c
 m-super/sfsx1000.pfb>
-Output written on main.pdf (30 pages, 2152836 bytes).
+Output written on main.pdf (33 pages, 2950032 bytes).
 PDF statistics:
- 2373 PDF objects out of 2487 (max. 8388607)
- 2123 compressed objects within 22 object streams
- 78 named destinations out of 1000 (max. 500000)
- 692 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2642 PDF objects out of 2984 (max. 8388607)
+ 2378 compressed objects within 24 object streams
+ 84 named destinations out of 1000 (max. 500000)
+ 712 words of extra memory for PDF output out of 10000 (max. 10000000)
 
