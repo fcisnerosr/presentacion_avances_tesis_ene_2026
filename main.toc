@@ -11,7 +11,8 @@
 \beamer@subsectionintoc {4}{2}{Abolladuras}{16}{0}{4}
 \beamer@sectionintoc {5}{Índice de Calidad de Detección (ICD)}{17}{0}{5}
 \beamer@sectionintoc {6}{Caso de Estudio}{18}{0}{6}
-\beamer@sectionintoc {7}{Resultados}{19}{0}{7}
-\beamer@subsectionintoc {7}{1}{Abolladura}{19}{0}{7}
-\beamer@subsectionintoc {7}{2}{Corrosión}{21}{0}{7}
-\beamer@sectionintoc {8}{Publicación y Conclusiones}{23}{0}{8}
+\beamer@subsectionintoc {6}{1}{Abolladura}{18}{0}{6}
+\beamer@sectionintoc {7}{Resultados}{20}{0}{7}
+\beamer@subsectionintoc {7}{1}{Abolladura}{20}{0}{7}
+\beamer@subsectionintoc {7}{2}{Corrosión}{22}{0}{7}
+\beamer@sectionintoc {8}{Publicación y Conclusiones}{24}{0}{8}
